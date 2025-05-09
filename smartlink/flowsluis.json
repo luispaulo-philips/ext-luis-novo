@@ -28,8 +28,8 @@
             []
         ]
     },
-    {
-        "id": "abc4353b6e62daa0",
+     {
+        "id": "82934b1d28a42203",
         "type": "DBPanel Interceptor",
         "z": "cd1420c0c1f1057d",
         "tableName": "AAZF_MED",
@@ -40,7 +40,7 @@
         "method": "post",
         "upload": false,
         "swaggerDoc": "",
-        "x": 520,
+        "x": 420,
         "y": 360,
         "wires": [
             []
