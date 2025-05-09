@@ -27,5 +27,23 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "abc4353b6e62daa0",
+        "type": "DBPanel Interceptor",
+        "z": "cd1420c0c1f1057d",
+        "tableName": "AAZF_MED",
+        "name": "",
+        "url": "",
+        "view": "40431795",
+        "executionOrder": "1",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 520,
+        "y": 360,
+        "wires": [
+            []
+        ]
     }
 ]
