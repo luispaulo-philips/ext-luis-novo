@@ -1,0 +1,49 @@
+[
+   {
+        "id": "cd1420c0c1f1057d",
+        "type": "tab",
+        "label": "teste luis",
+        "disabled": false,
+        "info": "",
+        "env": [],
+        "dbPanelCode": "",
+        "new": true,
+        "extensionId": "b15e8758-68ff-4a30-b65d-65dc100546ea"
+    },
+   {
+        "id": "abc4353b6e62daa0",
+        "type": "DBPanel Interceptor",
+        "z": "cd1420c0c1f1057d",
+        "tableName": "CMDKLTD_LUIS36",
+        "name": "",
+        "url": "",
+        "view": "40431795",
+        "executionOrder": "1",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 520,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+     {
+        "id": "82934b1d28a42203",
+        "type": "DBPanel Interceptor",
+        "z": "cd1420c0c1f1057d",
+        "tableName": "AAZF_MED",
+        "name": "",
+        "url": "",
+        "view": "40431795",
+        "executionOrder": "1",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 420,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    }
+]
