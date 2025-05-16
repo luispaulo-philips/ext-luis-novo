@@ -1,0 +1,126 @@
+{
+  "identifier" : "CMDKLTD",
+  "migrations" : [ {
+    "op" : "replace",
+    "path" : "/",
+    "value" : {
+      "avoidMemoryLeaks" : true,
+      "dialogs" : [ ],
+      "disableDeveloperBar" : false,
+      "experimentalFeatures" : { },
+      "externalAccessItens" : {
+        "ALL_FEATURES" : [ ],
+        "SPOTLIGHT_FEATURES" : [ ]
+      },
+      "externalAcessModal" : false,
+      "featureCode" : 99733,
+      "globalPopups" : [ ],
+      "metadataToFile" : true,
+      "noDataExpressionCode" : 397569,
+      "children" : [ {
+        "children" : [ {
+          "children" : [ ],
+          "code" : 820227819,
+          "componentType" : "WPACIENTE",
+          "customProperties" : {
+            "ieOpenOnLoad" : "N",
+            "isPrescriptionLocator" : "N",
+            "isSugeryLocatorVisible" : "N",
+            "isSurgicalProcessLocatorVisible" : "N",
+            "nrSeqFiltroPatientJourney" : "",
+            "readOnly" : "N"
+          },
+          "description" : "PatientBar",
+          "displayOrder" : 0,
+          "metadataFile" : false,
+          "objectType" : "COMPONENT",
+          "params" : [ ],
+          "parentObjectCode" : 816131952
+        }, {
+          "children" : [ {
+            "children" : [ {
+              "checkParentsRelease" : false,
+              "children" : [ ],
+              "cmdkMetadataCustomization" : false,
+              "code" : 820322462,
+              "componentType" : "WDBPANEL",
+              "crudRules" : [ ],
+              "customProperties" : {
+                "allowBatchSignature" : "N",
+                "showDynamicReport" : "N",
+                "withoutCache" : "N"
+              },
+              "description" : "DbPanel",
+              "displayOrder" : 1,
+              "isMaster" : false,
+              "legends" : [ ],
+              "masterObjectCode" : 0,
+              "metadataFile" : true,
+              "objectType" : "COMPONENT",
+              "params" : [ ],
+              "parentObjectCode" : 820312076,
+              "properties" : {
+                "action" : "",
+                "activateOnDetail" : false,
+                "autoCreateChild" : false,
+                "cacheDetailViews" : false,
+                "checkReportRelease" : true,
+                "confirmReleaseRecord" : false,
+                "destroyDetail" : false,
+                "editableGrid" : false,
+                "emptyActivation" : false,
+                "gridWhenSave" : true,
+                "lazyLoadDetail" : false,
+                "multiSelection" : false,
+                "onlyDetail" : false,
+                "pageSize" : 0,
+                "paginationType" : "P",
+                "qtMaxRecord" : 0,
+                "readOnlyType" : "N",
+                "reportConfigVisible" : false,
+                "responsive" : false,
+                "saveGridColumnOrder" : false,
+                "selectFirstRow" : false,
+                "unificarCountRegistros" : true,
+                "useNewGrid" : true,
+                "usePagination" : true
+              },
+              "reports" : [ ],
+              "signatureConfigured" : false,
+              "viewCode" : 818107490
+            } ],
+            "code" : 820312076,
+            "description" : "Region 0",
+            "displayOrder" : 1,
+            "metadataFile" : false,
+            "objectType" : "REGION",
+            "parentObjectCode" : 820312075
+          } ],
+          "code" : 820312075,
+          "description" : "Master region",
+          "masterRegionType" : "LAYOUT_A",
+          "metadataFile" : false,
+          "objectType" : "MASTER_REGION",
+          "parentObjectCode" : 816131952
+        } ],
+        "code" : 816131952,
+        "description" : "Panel",
+        "displayOrder" : 1,
+        "expressionCode" : 314879,
+        "expressionDescription" : "Panel",
+        "metadataFile" : false,
+        "objectType" : "PANEL",
+        "panelWidth" : 12,
+        "parentObjectCode" : 732816113
+      } ],
+      "code" : 732816113,
+      "componentType" : "WSCH",
+      "description" : "Schematic - 12",
+      "metadataFile" : false,
+      "objectType" : "SCHEMATIC",
+      "parentObjectCode" : 0,
+      "schematicFeatureCode" : 732816113
+    }
+  } ],
+  "type" : "PARTNER"
+}
