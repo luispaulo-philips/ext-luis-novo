@@ -57,6 +57,7 @@
         "type": "DBPanel Interceptor",
         "z": "be17f30618fe4f0d",
         "name": "GLASGOW",
+        "tableName": "GLASGOW",
         "url": "",
         "view": "818107490",
         "method": "post",
