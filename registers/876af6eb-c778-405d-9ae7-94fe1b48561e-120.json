@@ -1,0 +1,79 @@
+{
+  "changes" : [ {
+    "event_info" : {
+      "date" : "04/07/2025 18:26:26",
+      "sequence" : 900120,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "table_name" : "FUNCAO",
+      "tag_name" : "CMDK",
+      "tasy_user" : "",
+      "guid" : "7b141114-96c8-4cc8-9268-20587276dd7e"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "cf72da4ad8ef",
+      "os_user" : "root",
+      "tasy_user" : "lpfreitas"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "CD_FUNCAO",
+      "data_type" : "NUMBER",
+      "new_value" : 99785,
+      "old_value" : 99785
+    } ],
+    "column_values" : [ {
+      "column_name" : "CD_FUNCAO",
+      "data_type" : "NUMBER",
+      "new_value" : 99785,
+      "old_value" : 99785
+    }, {
+      "column_name" : "DS_ROTA",
+      "data_type" : "VARCHAR2",
+      "new_value" : "/cmdkltdf80",
+      "old_value" : "/cmdkltdf80"
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "04/07/2025 18:26:26",
+      "sequence" : 900121,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "table_name" : "PARTNER_FUNCTION",
+      "tag_name" : "CMDK",
+      "tasy_user" : "",
+      "guid" : "2032d43d-355a-4ce3-90a8-c46e16364a03"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "cf72da4ad8ef",
+      "os_user" : "root",
+      "tasy_user" : "lpfreitas"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 979,
+      "old_value" : 979
+    } ],
+    "column_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 979,
+      "old_value" : 979
+    }, {
+      "column_name" : "CD_FUNCAO",
+      "data_type" : "NUMBER",
+      "new_value" : 99785,
+      "old_value" : 99785
+    } ]
+  } ]
+}
