@@ -1,0 +1,13 @@
+{
+  "identifier" : "CMDKLTD",
+  "migrations" : [ {
+    "op" : "replace",
+    "path" : "/children/code:1035828/children/code:1035829/children/code:1035830/children/code:1035786/children/code:1035449/children/code:1035450/children/code:1035797/panelWidth",
+    "value" : 12
+  }, {
+    "op" : "replace",
+    "path" : "/version",
+    "value" : "1.7.0"
+  } ],
+  "type" : "PARTNER"
+}
