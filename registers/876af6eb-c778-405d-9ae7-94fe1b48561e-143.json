@@ -1,0 +1,46 @@
+{
+  "changes" : [ {
+    "event_info" : {
+      "date" : "30/09/2025 19:30:04",
+      "sequence" : 7150,
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "table_name" : "DIC_EXPRESSAO",
+      "tag_name" : "CMDK",
+      "tasy_user" : "lpfreitas",
+      "guid" : "a02b97b7-ebfd-4977-b230-97aa3d010def"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "3c449730021c",
+      "os_user" : "root",
+      "tasy_user" : "lpfreitas"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "CD_EXPRESSAO",
+      "data_type" : "NUMBER",
+      "new_value" : 1140392,
+      "old_value" : 1140392
+    } ],
+    "column_values" : [ {
+      "column_name" : "CD_EXPRESSAO",
+      "data_type" : "NUMBER",
+      "new_value" : 1140392,
+      "old_value" : 1140392
+    }, {
+      "column_name" : "DS_GLOSSARIO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "teste luis dev novo ext 1",
+      "old_value" : "teste luis dev novo ext"
+    }, {
+      "column_name" : "DT_ATUALIZACAO_NREC",
+      "data_type" : "DATE",
+      "new_value" : "30/09/2025 19:21:50",
+      "old_value" : "27/09/2025 14:29:48"
+    } ]
+  } ]
+}
