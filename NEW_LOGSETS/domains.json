@@ -1,0 +1,21 @@
+{
+  "VALOR_DOMINIO" : [ {
+    "CD_DOMINIO" : "8288",
+    "VL_DOMINIO" : "1",
+    "NM_USUARIO" : "lpfreitas",
+    "CD_EXP_VALOR_DOMINIO" : "1",
+    "DS_VALOR_DOMINIO" : "Test9999999",
+    "DT_ATUALIZACAO" : "10/11/2025 20:37:21",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "$operation" : "CREATE"
+  }, {
+    "CD_DOMINIO" : "8288",
+    "VL_DOMINIO" : "2",
+    "NM_USUARIO" : "lpfreitas",
+    "CD_EXP_VALOR_DOMINIO" : "2",
+    "DS_VALOR_DOMINIO" : "ANGIOLOGY",
+    "DT_ATUALIZACAO" : "10/11/2025 20:38:53",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "$operation" : "CREATE"
+  } ]
+}
