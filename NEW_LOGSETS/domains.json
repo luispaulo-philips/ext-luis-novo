@@ -1,0 +1,37 @@
+{
+  "VALOR_DOMINIO_CUSTOM" : [ {
+    "DT_ATUALIZACAO_NREC" : "12/11/2025 14:32:48",
+    "VL_DOMAIN" : "2",
+    "DS_DOMAIN_CLIENT_VALUE" : "",
+    "NR_SEQUENCIA" : "4181",
+    "NM_USUARIO" : "lpfreitas",
+    "IE_SITUACAO" : "A",
+    "NM_USUARIO_NREC" : "lpfreitas",
+    "CD_DOMAIN" : "8288",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "CD_EXP_DOMAIN_VALUE" : "1",
+    "$operation" : "DELETE"
+  }, {
+    "DT_ATUALIZACAO_NREC" : "12/11/2025 14:34:52",
+    "VL_DOMAIN" : "2",
+    "DS_DOMAIN_CLIENT_VALUE" : "",
+    "NR_SEQUENCIA" : "4182",
+    "NM_USUARIO" : "lpfreitas",
+    "IE_SITUACAO" : "A",
+    "NM_USUARIO_NREC" : "lpfreitas",
+    "CD_DOMAIN" : "8288",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "CD_EXP_DOMAIN_VALUE" : "4",
+    "$operation" : "DELETE"
+  } ],
+  "VALOR_DOMINIO" : [ {
+    "CD_DOMINIO" : "8288",
+    "VL_DOMINIO" : "1",
+    "NM_USUARIO" : "lpfreitas",
+    "CD_EXP_VALOR_DOMINIO" : "1",
+    "DS_VALOR_DOMINIO" : "Test9999999",
+    "DT_ATUALIZACAO" : "12/11/2025 15:21:33",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "$operation" : "DELETE"
+  } ]
+}
