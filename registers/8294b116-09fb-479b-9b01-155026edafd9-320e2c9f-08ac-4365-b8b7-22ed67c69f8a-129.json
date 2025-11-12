@@ -1,0 +1,54 @@
+[ {
+  "event_info" : {
+    "date" : "12/11/2025 14:12:19",
+    "sequence" : 500129,
+    "date_format" : "dd/mm/rrrr hh24:mi:ss",
+    "dml_operation" : "UPDATE",
+    "table_name" : "VALOR_DOMINIO",
+    "tag_name" : "CMDK",
+    "tasy_user" : "lpfreitas",
+    "guid" : "c2fc905d-caf0-4e99-9a07-b439ca5e6982"
+  },
+  "server_info" : {
+    "charset" : "BRAZILIAN PORTUGUESE_BRAZIL.AL32UTF8",
+    "database_version" : "19.0",
+    "instance_name" : "phcdb4"
+  },
+  "session_info" : {
+    "machine" : "YY345571",
+    "os_user" : "320115671",
+    "tasy_user" : "lpfreitas"
+  },
+  "primary_key_values" : [ {
+    "column_name" : "CD_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : 8288,
+    "old_value" : 8288
+  }, {
+    "column_name" : "VL_DOMINIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : 10,
+    "old_value" : 10
+  } ],
+  "column_values" : [ {
+    "column_name" : "CD_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : 8288,
+    "old_value" : 8288
+  }, {
+    "column_name" : "DS_VALOR_DOMINIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "NEONATAL ICU",
+    "old_value" : "ORTHOPEDICS"
+  }, {
+    "column_name" : "DT_ATUALIZACAO",
+    "data_type" : "DATE",
+    "new_value" : "12/11/2025 14:09:28",
+    "old_value" : "12/11/2025 12:10:17"
+  }, {
+    "column_name" : "CD_EXP_VALOR_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : 10,
+    "old_value" : 6
+  } ]
+} ]
