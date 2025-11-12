@@ -1,0 +1,109 @@
+{
+  "VALOR_DOMINIO_CUSTOM" : [ {
+    "DT_ATUALIZACAO_NREC" : "11/11/2025 19:50:44",
+    "VL_DOMAIN" : "2",
+    "DS_DOMAIN_CLIENT_VALUE" : "",
+    "NR_SEQUENCIA" : "4151",
+    "NM_USUARIO" : "cmdk_adm",
+    "IE_SITUACAO" : "A",
+    "NM_USUARIO_NREC" : "cmdk_adm",
+    "CD_DOMAIN" : "8288",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "CD_EXP_DOMAIN_VALUE" : "1",
+    "$operation" : "DELETE"
+  }, {
+    "DT_ATUALIZACAO_NREC" : "11/11/2025 19:53:19",
+    "VL_DOMAIN" : "2",
+    "DS_DOMAIN_CLIENT_VALUE" : "",
+    "NR_SEQUENCIA" : "4152",
+    "NM_USUARIO" : "cmdk_adm",
+    "IE_SITUACAO" : "A",
+    "NM_USUARIO_NREC" : "cmdk_adm",
+    "CD_DOMAIN" : "8288",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "CD_EXP_DOMAIN_VALUE" : "1",
+    "$operation" : "DELETE"
+  }, {
+    "DT_ATUALIZACAO_NREC" : "11/11/2025 19:59:59",
+    "VL_DOMAIN" : "2",
+    "DS_DOMAIN_CLIENT_VALUE" : "",
+    "NR_SEQUENCIA" : "4153",
+    "NM_USUARIO" : "cmdk_adm",
+    "IE_SITUACAO" : "A",
+    "NM_USUARIO_NREC" : "cmdk_adm",
+    "CD_DOMAIN" : "8288",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "CD_EXP_DOMAIN_VALUE" : "1",
+    "$operation" : "DELETE"
+  }, {
+    "DT_ATUALIZACAO_NREC" : "11/11/2025 20:07:58",
+    "VL_DOMAIN" : "2",
+    "DS_DOMAIN_CLIENT_VALUE" : "",
+    "NR_SEQUENCIA" : "4154",
+    "NM_USUARIO" : "cmdk_adm",
+    "IE_SITUACAO" : "A",
+    "NM_USUARIO_NREC" : "cmdk_adm",
+    "CD_DOMAIN" : "8288",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "CD_EXP_DOMAIN_VALUE" : "1",
+    "$operation" : "DELETE"
+  }, {
+    "DT_ATUALIZACAO_NREC" : "11/11/2025 20:17:22",
+    "VL_DOMAIN" : "2",
+    "DS_DOMAIN_CLIENT_VALUE" : "",
+    "NR_SEQUENCIA" : "4155",
+    "NM_USUARIO" : "cmdk_adm",
+    "IE_SITUACAO" : "A",
+    "NM_USUARIO_NREC" : "cmdk_adm",
+    "CD_DOMAIN" : "8288",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "CD_EXP_DOMAIN_VALUE" : "1",
+    "$operation" : "DELETE"
+  }, {
+    "DT_ATUALIZACAO_NREC" : "11/11/2025 20:19:38",
+    "VL_DOMAIN" : "2",
+    "DS_DOMAIN_CLIENT_VALUE" : "",
+    "NR_SEQUENCIA" : "4156",
+    "NM_USUARIO" : "cmdk_adm",
+    "IE_SITUACAO" : "A",
+    "NM_USUARIO_NREC" : "cmdk_adm",
+    "CD_DOMAIN" : "8288",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "CD_EXP_DOMAIN_VALUE" : "1",
+    "$operation" : "DELETE"
+  }, {
+    "DT_ATUALIZACAO_NREC" : "11/11/2025 20:20:52",
+    "VL_DOMAIN" : "2",
+    "DS_DOMAIN_CLIENT_VALUE" : "",
+    "NR_SEQUENCIA" : "4157",
+    "NM_USUARIO" : "cmdk_adm",
+    "IE_SITUACAO" : "A",
+    "NM_USUARIO_NREC" : "cmdk_adm",
+    "CD_DOMAIN" : "8288",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "CD_EXP_DOMAIN_VALUE" : "1",
+    "$operation" : "DELETE"
+  }, {
+    "DT_ATUALIZACAO_NREC" : "11/11/2025 20:24:17",
+    "VL_DOMAIN" : "2",
+    "DS_DOMAIN_CLIENT_VALUE" : "",
+    "NR_SEQUENCIA" : "4158",
+    "NM_USUARIO" : "cmdk_adm",
+    "IE_SITUACAO" : "A",
+    "NM_USUARIO_NREC" : "cmdk_adm",
+    "CD_DOMAIN" : "8288",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "CD_EXP_DOMAIN_VALUE" : "1",
+    "$operation" : "DELETE"
+  } ],
+  "VALOR_DOMINIO" : [ {
+    "CD_DOMINIO" : "5489",
+    "VL_DOMINIO" : "1",
+    "NM_USUARIO" : "cmdk_adm",
+    "CD_EXP_VALOR_DOMINIO" : "3",
+    "DS_VALOR_DOMINIO" : "GYNECOLOGICAL SURGERY",
+    "DT_ATUALIZACAO" : "11/11/2025 21:30:42",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "$operation" : "MERGE"
+  } ]
+}
