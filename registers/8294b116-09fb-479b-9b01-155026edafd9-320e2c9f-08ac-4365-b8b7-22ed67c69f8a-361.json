@@ -1,0 +1,44 @@
+[ {
+  "event_info" : {
+    "date" : "19/11/2025 13:15:28",
+    "sequence" : 500361,
+    "date_format" : "dd/mm/rrrr hh24:mi:ss",
+    "dml_operation" : "UPDATE",
+    "table_name" : "DOMINIO",
+    "tag_name" : "CMDK",
+    "tasy_user" : "lpfreitas",
+    "guid" : "34bec1f0-8ec1-4b35-96ea-d2ca9279cd05"
+  },
+  "server_info" : {
+    "charset" : "BRAZILIAN PORTUGUESE_BRAZIL.AL32UTF8",
+    "database_version" : "19.0",
+    "instance_name" : "phcdb4"
+  },
+  "session_info" : {
+    "machine" : "YY345571",
+    "os_user" : "320115671",
+    "tasy_user" : "lpfreitas"
+  },
+  "primary_key_values" : [ {
+    "column_name" : "CD_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : 20818,
+    "old_value" : 20818
+  } ],
+  "column_values" : [ {
+    "column_name" : "CD_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : 20818,
+    "old_value" : 20818
+  }, {
+    "column_name" : "NM_DOMINIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : 2,
+    "old_value" : 1
+  }, {
+    "column_name" : "DT_ATUALIZACAO",
+    "data_type" : "DATE",
+    "new_value" : "19/11/2025 13:15:19",
+    "old_value" : "19/11/2025 13:12:56"
+  } ]
+} ]
