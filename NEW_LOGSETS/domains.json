@@ -1,0 +1,21 @@
+{
+  "VALOR_DOMINIO" : [ {
+    "$operation" : "MERGE",
+    "CD_DOMINIO" : "20938",
+    "VL_DOMINIO" : "3",
+    "NM_USUARIO" : "brpsouza",
+    "CD_EXP_VALOR_DOMINIO" : "4",
+    "DS_VALOR_DOMINIO" : "NEUROLOGY/NEUROSURGERY",
+    "DT_ATUALIZACAO" : "26/11/2025 11:04:51",
+    "DS_LAYER" : "CORE.CMDK_LTDA"
+  }, {
+    "$operation" : "CREATE",
+    "CD_DOMINIO" : "20940",
+    "VL_DOMINIO" : "2",
+    "NM_USUARIO" : "brpsouza",
+    "CD_EXP_VALOR_DOMINIO" : "2",
+    "DS_VALOR_DOMINIO" : "ANGIOLOGY",
+    "DT_ATUALIZACAO" : "26/11/2025 12:08:38",
+    "DS_LAYER" : "CORE.CMDK_LTDA"
+  } ]
+}
