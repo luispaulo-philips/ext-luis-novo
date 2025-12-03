@@ -1,0 +1,55 @@
+{
+  "VALOR_DOMINIO" : [ {
+    "$operation" : "MERGE",
+    "CD_DOMINIO" : "20938",
+    "VL_DOMINIO" : "3",
+    "NM_USUARIO" : "brpsouza",
+    "CD_EXP_VALOR_DOMINIO" : "4",
+    "DS_VALOR_DOMINIO" : "NEUROLOGY/NEUROSURGERY",
+    "DT_ATUALIZACAO" : "26/11/2025 11:04:51",
+    "DS_LAYER" : "CORE.CMDK_LTDA"
+  }, {
+    "$operation" : "CREATE",
+    "CD_DOMINIO" : "20940",
+    "VL_DOMINIO" : "2",
+    "NM_USUARIO" : "brpsouza",
+    "CD_EXP_VALOR_DOMINIO" : "2",
+    "DS_VALOR_DOMINIO" : "ANGIOLOGY",
+    "DT_ATUALIZACAO" : "26/11/2025 12:08:38",
+    "DS_LAYER" : "CORE.CMDK_LTDA"
+  } ],
+  "DOMINIO" : [ {
+    "$operation" : "CREATE",
+    "CD_EXP_DESC_DOMINIO" : "2",
+    "CD_DOMINIO" : "20987",
+    "NM_DOMINIO" : "2",
+    "VALOR_DOMINIO_CUSTOM" : [ ],
+    "NM_USUARIO" : "brpsouza",
+    "DS_DOMINIO" : "2",
+    "CD_EXP_DOMINIO" : "2",
+    "VALOR_DOMINIO" : [ ],
+    "DT_ATUALIZACAO" : "03/12/2025 14:00:45",
+    "DS_LAYER" : "CORE.CMDK_LTDA"
+  }, {
+    "$operation" : "CREATE",
+    "CD_EXP_DESC_DOMINIO" : "1",
+    "CD_DOMINIO" : "20988",
+    "NM_DOMINIO" : "1",
+    "VALOR_DOMINIO_CUSTOM" : [ ],
+    "NM_USUARIO" : "brpsouza",
+    "DS_DOMINIO" : "1",
+    "CD_EXP_DOMINIO" : "1",
+    "VALOR_DOMINIO" : [ {
+      "$operation" : "CREATE",
+      "CD_DOMINIO" : "20988",
+      "VL_DOMINIO" : "1",
+      "NM_USUARIO" : "brpsouza",
+      "CD_EXP_VALOR_DOMINIO" : "1",
+      "DS_VALOR_DOMINIO" : "Test9999999",
+      "DT_ATUALIZACAO" : "03/12/2025 14:13:38",
+      "DS_LAYER" : "CORE.CMDK_LTDA"
+    } ],
+    "DT_ATUALIZACAO" : "03/12/2025 14:13:34",
+    "DS_LAYER" : "CORE.CMDK_LTDA"
+  } ]
+}
