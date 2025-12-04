@@ -1,0 +1,49 @@
+[ {
+  "event_info" : {
+    "date" : "04/12/2025 16:04:16",
+    "sequence" : 500090,
+    "date_format" : "dd/mm/rrrr hh24:mi:ss",
+    "dml_operation" : "UPDATE",
+    "table_name" : "VALOR_DOMINIO_CUSTOM",
+    "tag_name" : "CMDK",
+    "tasy_user" : "cmdk_adm",
+    "guid" : "6ba645e1-b08b-4def-b7e1-6725c0fb2e76"
+  },
+  "server_info" : {
+    "charset" : "BRAZILIAN PORTUGUESE_BRAZIL.AL32UTF8",
+    "database_version" : "19.0",
+    "instance_name" : "phcdb4"
+  },
+  "session_info" : {
+    "machine" : "YY345571",
+    "os_user" : "320115671",
+    "tasy_user" : "cmdk_adm"
+  },
+  "primary_key_values" : [ {
+    "column_name" : "NR_SEQUENCIA",
+    "data_type" : "NUMBER",
+    "new_value" : 4330,
+    "old_value" : 4330
+  } ],
+  "column_values" : [ {
+    "column_name" : "NR_SEQUENCIA",
+    "data_type" : "NUMBER",
+    "new_value" : 4330,
+    "old_value" : 4330
+  }, {
+    "column_name" : "DT_ATUALIZACAO_NREC",
+    "data_type" : "DATE",
+    "new_value" : "04/12/2025 16:03:51",
+    "old_value" : "04/12/2025 16:02:28"
+  }, {
+    "column_name" : "CD_DOMAIN",
+    "data_type" : "NUMBER",
+    "new_value" : 8288,
+    "old_value" : 8288
+  }, {
+    "column_name" : "DS_DOMAIN_CLIENT_VALUE",
+    "data_type" : "VARCHAR2",
+    "new_value" : "cmf",
+    "old_value" : "cm"
+  } ]
+} ]
