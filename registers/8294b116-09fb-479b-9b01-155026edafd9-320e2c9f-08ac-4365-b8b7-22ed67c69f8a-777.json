@@ -1,0 +1,783 @@
+[ {
+  "event_info" : {
+    "date" : "05/12/2025 15:21:41",
+    "sequence" : 500769,
+    "date_format" : "dd/mm/rrrr hh24:mi:ss",
+    "dml_operation" : "INSERT",
+    "table_name" : "VALOR_DOMINIO",
+    "tag_name" : "CMDK",
+    "tasy_user" : "cmdk_adm",
+    "guid" : "5bad00ae-fbe2-401d-a2d9-a133b0b0ca95"
+  },
+  "server_info" : {
+    "charset" : "BRAZILIAN PORTUGUESE_BRAZIL.AL32UTF8",
+    "database_version" : "19.0",
+    "instance_name" : "phcdb4"
+  },
+  "session_info" : {
+    "machine" : "YY345571",
+    "os_user" : "320115671",
+    "tasy_user" : "lpfreitas"
+  },
+  "primary_key_values" : [ {
+    "column_name" : "CD_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : 8288,
+    "old_value" : null
+  }, {
+    "column_name" : "VL_DOMINIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : 1,
+    "old_value" : null
+  } ],
+  "column_values" : [ {
+    "column_name" : "IE_SITUACAO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "A",
+    "old_value" : null
+  }, {
+    "column_name" : "CD_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : 8288,
+    "old_value" : null
+  }, {
+    "column_name" : "VL_DOMINIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : 1,
+    "old_value" : null
+  }, {
+    "column_name" : "DS_VALOR_DOMINIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "ANGIOLOGY",
+    "old_value" : null
+  }, {
+    "column_name" : "DT_ATUALIZACAO",
+    "data_type" : "DATE",
+    "new_value" : "05/12/2025 14:53:07",
+    "old_value" : null
+  }, {
+    "column_name" : "NM_USUARIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "lpfreitas",
+    "old_value" : null
+  }, {
+    "column_name" : "CD_EXP_VALOR_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : 2,
+    "old_value" : null
+  }, {
+    "column_name" : "IE_DELPHI",
+    "data_type" : "VARCHAR2",
+    "new_value" : "A",
+    "old_value" : null
+  }, {
+    "column_name" : "IE_JAVA",
+    "data_type" : "VARCHAR2",
+    "new_value" : "A",
+    "old_value" : null
+  }, {
+    "column_name" : "IE_HTML5",
+    "data_type" : "VARCHAR2",
+    "new_value" : "A",
+    "old_value" : null
+  }, {
+    "column_name" : "DS_LAYER",
+    "data_type" : "VARCHAR2",
+    "new_value" : "CORE.CMDK_LTDA",
+    "old_value" : null
+  } ]
+}, {
+  "event_info" : {
+    "date" : "05/12/2025 15:21:41",
+    "sequence" : 500770,
+    "date_format" : "dd/mm/rrrr hh24:mi:ss",
+    "dml_operation" : "DELETE",
+    "table_name" : "VALOR_DOMINIO",
+    "tag_name" : "CMDK",
+    "tasy_user" : "cmdk_adm",
+    "guid" : "6a14f595-1dde-4f77-916f-acf72a4c4408"
+  },
+  "server_info" : {
+    "charset" : "BRAZILIAN PORTUGUESE_BRAZIL.AL32UTF8",
+    "database_version" : "19.0",
+    "instance_name" : "phcdb4"
+  },
+  "session_info" : {
+    "machine" : "YY345571",
+    "os_user" : "320115671",
+    "tasy_user" : "lpfreitas"
+  },
+  "primary_key_values" : [ {
+    "column_name" : "CD_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : null,
+    "old_value" : 8288
+  }, {
+    "column_name" : "VL_DOMINIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : null,
+    "old_value" : 1
+  } ],
+  "column_values" : [ {
+    "column_name" : "IE_SITUACAO",
+    "data_type" : "VARCHAR2",
+    "new_value" : null,
+    "old_value" : "A"
+  }, {
+    "column_name" : "CD_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : null,
+    "old_value" : 8288
+  }, {
+    "column_name" : "VL_DOMINIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : null,
+    "old_value" : 1
+  }, {
+    "column_name" : "DS_VALOR_DOMINIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : null,
+    "old_value" : "ANGIOLOGY"
+  }, {
+    "column_name" : "DT_ATUALIZACAO",
+    "data_type" : "DATE",
+    "new_value" : null,
+    "old_value" : "05/12/2025 14:53:07"
+  }, {
+    "column_name" : "NM_USUARIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : null,
+    "old_value" : "lpfreitas"
+  }, {
+    "column_name" : "CD_EXP_VALOR_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : null,
+    "old_value" : 2
+  }, {
+    "column_name" : "IE_DELPHI",
+    "data_type" : "VARCHAR2",
+    "new_value" : null,
+    "old_value" : "A"
+  }, {
+    "column_name" : "IE_JAVA",
+    "data_type" : "VARCHAR2",
+    "new_value" : null,
+    "old_value" : "A"
+  }, {
+    "column_name" : "IE_HTML5",
+    "data_type" : "VARCHAR2",
+    "new_value" : null,
+    "old_value" : "A"
+  }, {
+    "column_name" : "DS_LAYER",
+    "data_type" : "VARCHAR2",
+    "new_value" : null,
+    "old_value" : "CORE.CMDK_LTDA"
+  } ]
+}, {
+  "event_info" : {
+    "date" : "05/12/2025 15:21:41",
+    "sequence" : 500771,
+    "date_format" : "dd/mm/rrrr hh24:mi:ss",
+    "dml_operation" : "INSERT",
+    "table_name" : "VALOR_DOMINIO",
+    "tag_name" : "CMDK",
+    "tasy_user" : "cmdk_adm",
+    "guid" : "cc935d11-4e78-4b7b-8673-7f6bdb14cba8"
+  },
+  "server_info" : {
+    "charset" : "BRAZILIAN PORTUGUESE_BRAZIL.AL32UTF8",
+    "database_version" : "19.0",
+    "instance_name" : "phcdb4"
+  },
+  "session_info" : {
+    "machine" : "YY345571",
+    "os_user" : "320115671",
+    "tasy_user" : "lpfreitas"
+  },
+  "primary_key_values" : [ {
+    "column_name" : "CD_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : 8288,
+    "old_value" : null
+  }, {
+    "column_name" : "VL_DOMINIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : 1,
+    "old_value" : null
+  } ],
+  "column_values" : [ {
+    "column_name" : "IE_SITUACAO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "A",
+    "old_value" : null
+  }, {
+    "column_name" : "CD_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : 8288,
+    "old_value" : null
+  }, {
+    "column_name" : "VL_DOMINIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : 1,
+    "old_value" : null
+  }, {
+    "column_name" : "DS_VALOR_DOMINIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "Test9999999",
+    "old_value" : null
+  }, {
+    "column_name" : "DT_ATUALIZACAO",
+    "data_type" : "DATE",
+    "new_value" : "05/12/2025 14:53:40",
+    "old_value" : null
+  }, {
+    "column_name" : "NM_USUARIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "lpfreitas",
+    "old_value" : null
+  }, {
+    "column_name" : "CD_EXP_VALOR_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : 1,
+    "old_value" : null
+  }, {
+    "column_name" : "IE_DELPHI",
+    "data_type" : "VARCHAR2",
+    "new_value" : "A",
+    "old_value" : null
+  }, {
+    "column_name" : "IE_JAVA",
+    "data_type" : "VARCHAR2",
+    "new_value" : "A",
+    "old_value" : null
+  }, {
+    "column_name" : "IE_HTML5",
+    "data_type" : "VARCHAR2",
+    "new_value" : "A",
+    "old_value" : null
+  }, {
+    "column_name" : "DS_LAYER",
+    "data_type" : "VARCHAR2",
+    "new_value" : "CORE.CMDK_LTDA",
+    "old_value" : null
+  } ]
+}, {
+  "event_info" : {
+    "date" : "05/12/2025 15:21:41",
+    "sequence" : 500772,
+    "date_format" : "dd/mm/rrrr hh24:mi:ss",
+    "dml_operation" : "DELETE",
+    "table_name" : "VALOR_DOMINIO",
+    "tag_name" : "CMDK",
+    "tasy_user" : "cmdk_adm",
+    "guid" : "824dad1e-022f-4c12-87a8-dabaacd0e035"
+  },
+  "server_info" : {
+    "charset" : "BRAZILIAN PORTUGUESE_BRAZIL.AL32UTF8",
+    "database_version" : "19.0",
+    "instance_name" : "phcdb4"
+  },
+  "session_info" : {
+    "machine" : "YY345571",
+    "os_user" : "320115671",
+    "tasy_user" : "lpfreitas"
+  },
+  "primary_key_values" : [ {
+    "column_name" : "CD_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : null,
+    "old_value" : 8288
+  }, {
+    "column_name" : "VL_DOMINIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : null,
+    "old_value" : 1
+  } ],
+  "column_values" : [ {
+    "column_name" : "IE_SITUACAO",
+    "data_type" : "VARCHAR2",
+    "new_value" : null,
+    "old_value" : "A"
+  }, {
+    "column_name" : "CD_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : null,
+    "old_value" : 8288
+  }, {
+    "column_name" : "VL_DOMINIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : null,
+    "old_value" : 1
+  }, {
+    "column_name" : "DS_VALOR_DOMINIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : null,
+    "old_value" : "Test9999999"
+  }, {
+    "column_name" : "DT_ATUALIZACAO",
+    "data_type" : "DATE",
+    "new_value" : null,
+    "old_value" : "05/12/2025 14:53:40"
+  }, {
+    "column_name" : "NM_USUARIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : null,
+    "old_value" : "lpfreitas"
+  }, {
+    "column_name" : "CD_EXP_VALOR_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : null,
+    "old_value" : 1
+  }, {
+    "column_name" : "IE_DELPHI",
+    "data_type" : "VARCHAR2",
+    "new_value" : null,
+    "old_value" : "A"
+  }, {
+    "column_name" : "IE_JAVA",
+    "data_type" : "VARCHAR2",
+    "new_value" : null,
+    "old_value" : "A"
+  }, {
+    "column_name" : "IE_HTML5",
+    "data_type" : "VARCHAR2",
+    "new_value" : null,
+    "old_value" : "A"
+  }, {
+    "column_name" : "DS_LAYER",
+    "data_type" : "VARCHAR2",
+    "new_value" : null,
+    "old_value" : "CORE.CMDK_LTDA"
+  } ]
+}, {
+  "event_info" : {
+    "date" : "05/12/2025 15:21:41",
+    "sequence" : 500773,
+    "date_format" : "dd/mm/rrrr hh24:mi:ss",
+    "dml_operation" : "INSERT",
+    "table_name" : "VALOR_DOMINIO",
+    "tag_name" : "CMDK",
+    "tasy_user" : "cmdk_adm",
+    "guid" : "141a88a8-617b-4fe6-9c72-eec5575c7a16"
+  },
+  "server_info" : {
+    "charset" : "BRAZILIAN PORTUGUESE_BRAZIL.AL32UTF8",
+    "database_version" : "19.0",
+    "instance_name" : "phcdb4"
+  },
+  "session_info" : {
+    "machine" : "YY345571",
+    "os_user" : "320115671",
+    "tasy_user" : "lpfreitas"
+  },
+  "primary_key_values" : [ {
+    "column_name" : "CD_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : 8288,
+    "old_value" : null
+  }, {
+    "column_name" : "VL_DOMINIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : 1,
+    "old_value" : null
+  } ],
+  "column_values" : [ {
+    "column_name" : "IE_SITUACAO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "A",
+    "old_value" : null
+  }, {
+    "column_name" : "CD_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : 8288,
+    "old_value" : null
+  }, {
+    "column_name" : "VL_DOMINIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : 1,
+    "old_value" : null
+  }, {
+    "column_name" : "DS_VALOR_DOMINIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "Test9999999",
+    "old_value" : null
+  }, {
+    "column_name" : "DT_ATUALIZACAO",
+    "data_type" : "DATE",
+    "new_value" : "05/12/2025 15:05:47",
+    "old_value" : null
+  }, {
+    "column_name" : "NM_USUARIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "lpfreitas",
+    "old_value" : null
+  }, {
+    "column_name" : "CD_EXP_VALOR_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : 1,
+    "old_value" : null
+  }, {
+    "column_name" : "IE_DELPHI",
+    "data_type" : "VARCHAR2",
+    "new_value" : "A",
+    "old_value" : null
+  }, {
+    "column_name" : "IE_JAVA",
+    "data_type" : "VARCHAR2",
+    "new_value" : "A",
+    "old_value" : null
+  }, {
+    "column_name" : "IE_HTML5",
+    "data_type" : "VARCHAR2",
+    "new_value" : "A",
+    "old_value" : null
+  }, {
+    "column_name" : "DS_LAYER",
+    "data_type" : "VARCHAR2",
+    "new_value" : "CORE.CMDK_LTDA",
+    "old_value" : null
+  } ]
+}, {
+  "event_info" : {
+    "date" : "05/12/2025 15:21:41",
+    "sequence" : 500774,
+    "date_format" : "dd/mm/rrrr hh24:mi:ss",
+    "dml_operation" : "INSERT",
+    "table_name" : "DOMINIO",
+    "tag_name" : "CMDK",
+    "tasy_user" : "lpfreitas",
+    "guid" : "309eccf0-3987-476a-8e04-1d183fa34020"
+  },
+  "server_info" : {
+    "charset" : "BRAZILIAN PORTUGUESE_BRAZIL.AL32UTF8",
+    "database_version" : "19.0",
+    "instance_name" : "phcdb4"
+  },
+  "session_info" : {
+    "machine" : "YY345571",
+    "os_user" : "320115671",
+    "tasy_user" : "lpfreitas"
+  },
+  "primary_key_values" : [ {
+    "column_name" : "CD_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : 21005,
+    "old_value" : null
+  } ],
+  "column_values" : [ {
+    "column_name" : "CD_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : 21005,
+    "old_value" : null
+  }, {
+    "column_name" : "NM_DOMINIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : 1,
+    "old_value" : null
+  }, {
+    "column_name" : "DS_DOMINIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : 1,
+    "old_value" : null
+  }, {
+    "column_name" : "IE_ALTERAR",
+    "data_type" : "VARCHAR2",
+    "new_value" : "N",
+    "old_value" : null
+  }, {
+    "column_name" : "NM_USUARIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "lpfreitas",
+    "old_value" : null
+  }, {
+    "column_name" : "IE_IMPLANTAR",
+    "data_type" : "VARCHAR2",
+    "new_value" : "N",
+    "old_value" : null
+  }, {
+    "column_name" : "NR_SEQ_MODULO",
+    "data_type" : "NUMBER",
+    "new_value" : "15",
+    "old_value" : null
+  }, {
+    "column_name" : "DT_ATUALIZACAO",
+    "data_type" : "DATE",
+    "new_value" : "05/12/2025 15:06:42",
+    "old_value" : null
+  }, {
+    "column_name" : "CD_EXP_DESC_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : 1,
+    "old_value" : null
+  }, {
+    "column_name" : "CD_EXP_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : 1,
+    "old_value" : null
+  }, {
+    "column_name" : "DS_LAYER",
+    "data_type" : "VARCHAR2",
+    "new_value" : "CORE.CMDK_LTDA",
+    "old_value" : null
+  } ]
+}, {
+  "event_info" : {
+    "date" : "05/12/2025 15:21:41",
+    "sequence" : 500775,
+    "date_format" : "dd/mm/rrrr hh24:mi:ss",
+    "dml_operation" : "DELETE",
+    "table_name" : "VALOR_DOMINIO",
+    "tag_name" : "CMDK",
+    "tasy_user" : "cmdk_adm",
+    "guid" : "a9bb775c-4379-4941-8a1f-280c491ad816"
+  },
+  "server_info" : {
+    "charset" : "BRAZILIAN PORTUGUESE_BRAZIL.AL32UTF8",
+    "database_version" : "19.0",
+    "instance_name" : "phcdb4"
+  },
+  "session_info" : {
+    "machine" : "YY345571",
+    "os_user" : "320115671",
+    "tasy_user" : "lpfreitas"
+  },
+  "primary_key_values" : [ {
+    "column_name" : "CD_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : null,
+    "old_value" : 8288
+  }, {
+    "column_name" : "VL_DOMINIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : null,
+    "old_value" : 1
+  } ],
+  "column_values" : [ {
+    "column_name" : "IE_SITUACAO",
+    "data_type" : "VARCHAR2",
+    "new_value" : null,
+    "old_value" : "A"
+  }, {
+    "column_name" : "CD_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : null,
+    "old_value" : 8288
+  }, {
+    "column_name" : "VL_DOMINIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : null,
+    "old_value" : 1
+  }, {
+    "column_name" : "DS_VALOR_DOMINIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : null,
+    "old_value" : "Test9999999"
+  }, {
+    "column_name" : "DT_ATUALIZACAO",
+    "data_type" : "DATE",
+    "new_value" : null,
+    "old_value" : "05/12/2025 15:05:47"
+  }, {
+    "column_name" : "NM_USUARIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : null,
+    "old_value" : "lpfreitas"
+  }, {
+    "column_name" : "CD_EXP_VALOR_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : null,
+    "old_value" : 1
+  }, {
+    "column_name" : "IE_DELPHI",
+    "data_type" : "VARCHAR2",
+    "new_value" : null,
+    "old_value" : "A"
+  }, {
+    "column_name" : "IE_JAVA",
+    "data_type" : "VARCHAR2",
+    "new_value" : null,
+    "old_value" : "A"
+  }, {
+    "column_name" : "IE_HTML5",
+    "data_type" : "VARCHAR2",
+    "new_value" : null,
+    "old_value" : "A"
+  }, {
+    "column_name" : "DS_LAYER",
+    "data_type" : "VARCHAR2",
+    "new_value" : null,
+    "old_value" : "CORE.CMDK_LTDA"
+  } ]
+}, {
+  "event_info" : {
+    "date" : "05/12/2025 15:21:41",
+    "sequence" : 500776,
+    "date_format" : "dd/mm/rrrr hh24:mi:ss",
+    "dml_operation" : "INSERT",
+    "table_name" : "VALOR_DOMINIO",
+    "tag_name" : "CMDK",
+    "tasy_user" : "cmdk_adm",
+    "guid" : "041c621e-6897-496a-b729-c690b2981374"
+  },
+  "server_info" : {
+    "charset" : "BRAZILIAN PORTUGUESE_BRAZIL.AL32UTF8",
+    "database_version" : "19.0",
+    "instance_name" : "phcdb4"
+  },
+  "session_info" : {
+    "machine" : "YY345571",
+    "os_user" : "320115671",
+    "tasy_user" : "lpfreitas"
+  },
+  "primary_key_values" : [ {
+    "column_name" : "CD_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : 8288,
+    "old_value" : null
+  }, {
+    "column_name" : "VL_DOMINIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : 1,
+    "old_value" : null
+  } ],
+  "column_values" : [ {
+    "column_name" : "IE_SITUACAO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "A",
+    "old_value" : null
+  }, {
+    "column_name" : "CD_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : 8288,
+    "old_value" : null
+  }, {
+    "column_name" : "VL_DOMINIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : 1,
+    "old_value" : null
+  }, {
+    "column_name" : "DS_VALOR_DOMINIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "Test9999999",
+    "old_value" : null
+  }, {
+    "column_name" : "DT_ATUALIZACAO",
+    "data_type" : "DATE",
+    "new_value" : "05/12/2025 15:18:30",
+    "old_value" : null
+  }, {
+    "column_name" : "NM_USUARIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "lpfreitas",
+    "old_value" : null
+  }, {
+    "column_name" : "CD_EXP_VALOR_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : 1,
+    "old_value" : null
+  }, {
+    "column_name" : "IE_DELPHI",
+    "data_type" : "VARCHAR2",
+    "new_value" : "A",
+    "old_value" : null
+  }, {
+    "column_name" : "IE_JAVA",
+    "data_type" : "VARCHAR2",
+    "new_value" : "A",
+    "old_value" : null
+  }, {
+    "column_name" : "IE_HTML5",
+    "data_type" : "VARCHAR2",
+    "new_value" : "A",
+    "old_value" : null
+  }, {
+    "column_name" : "DS_LAYER",
+    "data_type" : "VARCHAR2",
+    "new_value" : "CORE.CMDK_LTDA",
+    "old_value" : null
+  } ]
+}, {
+  "event_info" : {
+    "date" : "05/12/2025 15:21:41",
+    "sequence" : 500777,
+    "date_format" : "dd/mm/rrrr hh24:mi:ss",
+    "dml_operation" : "DELETE",
+    "table_name" : "DOMINIO",
+    "tag_name" : "CMDK",
+    "tasy_user" : "lpfreitas",
+    "guid" : "4ea2dad4-c63a-4c41-b2e0-1331b9f0fdbb"
+  },
+  "server_info" : {
+    "charset" : "BRAZILIAN PORTUGUESE_BRAZIL.AL32UTF8",
+    "database_version" : "19.0",
+    "instance_name" : "phcdb4"
+  },
+  "session_info" : {
+    "machine" : "YY345571",
+    "os_user" : "320115671",
+    "tasy_user" : "lpfreitas"
+  },
+  "primary_key_values" : [ {
+    "column_name" : "CD_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : null,
+    "old_value" : 21005
+  } ],
+  "column_values" : [ {
+    "column_name" : "CD_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : null,
+    "old_value" : 21005
+  }, {
+    "column_name" : "NM_DOMINIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : null,
+    "old_value" : 1
+  }, {
+    "column_name" : "DS_DOMINIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : null,
+    "old_value" : 1
+  }, {
+    "column_name" : "IE_ALTERAR",
+    "data_type" : "VARCHAR2",
+    "new_value" : null,
+    "old_value" : "N"
+  }, {
+    "column_name" : "NM_USUARIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : null,
+    "old_value" : "lpfreitas"
+  }, {
+    "column_name" : "IE_IMPLANTAR",
+    "data_type" : "VARCHAR2",
+    "new_value" : null,
+    "old_value" : "N"
+  }, {
+    "column_name" : "NR_SEQ_MODULO",
+    "data_type" : "NUMBER",
+    "new_value" : null,
+    "old_value" : "15"
+  }, {
+    "column_name" : "DT_ATUALIZACAO",
+    "data_type" : "DATE",
+    "new_value" : null,
+    "old_value" : "05/12/2025 15:06:42"
+  }, {
+    "column_name" : "CD_EXP_DESC_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : null,
+    "old_value" : 1
+  }, {
+    "column_name" : "CD_EXP_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : null,
+    "old_value" : 1
+  }, {
+    "column_name" : "DS_LAYER",
+    "data_type" : "VARCHAR2",
+    "new_value" : null,
+    "old_value" : "CORE.CMDK_LTDA"
+  } ]
+} ]
