@@ -1,0 +1,92 @@
+{
+  "VALOR_DOMINIO_CUSTOM" : [ {
+    "$operation" : "CREATE",
+    "DT_ATUALIZACAO_NREC" : "05/12/2025 11:29:42",
+    "VL_DOMAIN" : "N",
+    "DS_DOMAIN_CLIENT_VALUE" : "teste",
+    "NR_SEQUENCIA" : "4335",
+    "NM_USUARIO" : "brpsouza",
+    "IE_SITUACAO" : "A",
+    "NM_USUARIO_NREC" : "brpsouza",
+    "CD_DOMAIN" : "4863",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "CD_EXP_DOMAIN_VALUE" : "317230"
+  }, {
+    "$operation" : "CREATE",
+    "DT_ATUALIZACAO_NREC" : "08/12/2025 19:39:39",
+    "VL_DOMAIN" : "2",
+    "DS_DOMAIN_CLIENT_VALUE" : "testr",
+    "NR_SEQUENCIA" : "4396",
+    "NM_USUARIO" : "brpsouza",
+    "IE_SITUACAO" : "A",
+    "NM_USUARIO_NREC" : "brpsouza",
+    "CD_DOMAIN" : "8288",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "CD_EXP_DOMAIN_VALUE" : "5"
+  }, {
+    "$operation" : "CREATE",
+    "DT_ATUALIZACAO_NREC" : "08/12/2025 20:08:42",
+    "VL_DOMAIN" : "2",
+    "DS_DOMAIN_CLIENT_VALUE" : "bru",
+    "NR_SEQUENCIA" : "4399",
+    "NM_USUARIO" : "brpsouza",
+    "IE_SITUACAO" : "A",
+    "NM_USUARIO_NREC" : "brpsouza",
+    "CD_DOMAIN" : "8288",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "CD_EXP_DOMAIN_VALUE" : "1"
+  } ],
+  "VALOR_DOMINIO" : [ {
+    "$operation" : "MERGE",
+    "CD_DOMINIO" : "20938",
+    "VL_DOMINIO" : "3",
+    "NM_USUARIO" : "brpsouza",
+    "CD_EXP_VALOR_DOMINIO" : "4",
+    "DS_VALOR_DOMINIO" : "NEUROLOGY/NEUROSURGERY",
+    "DT_ATUALIZACAO" : "26/11/2025 11:04:51",
+    "DS_LAYER" : "CORE.CMDK_LTDA"
+  }, {
+    "$operation" : "CREATE",
+    "CD_DOMINIO" : "20940",
+    "VL_DOMINIO" : "2",
+    "NM_USUARIO" : "brpsouza",
+    "CD_EXP_VALOR_DOMINIO" : "2",
+    "DS_VALOR_DOMINIO" : "ANGIOLOGY",
+    "DT_ATUALIZACAO" : "26/11/2025 12:08:38",
+    "DS_LAYER" : "CORE.CMDK_LTDA"
+  }, {
+    "$operation" : "MERGE",
+    "CD_DOMINIO" : "8288",
+    "VL_DOMINIO" : "1",
+    "NM_USUARIO" : "brpsouza",
+    "CD_EXP_VALOR_DOMINIO" : "2",
+    "DS_VALOR_DOMINIO" : "ANGIOLOGY",
+    "DT_ATUALIZACAO" : "08/12/2025 19:42:52",
+    "DS_LAYER" : "CORE.CMDK_LTDA"
+  } ],
+  "DOMINIO" : [ {
+    "$operation" : "CREATE",
+    "CD_EXP_DESC_DOMINIO" : "2",
+    "CD_DOMINIO" : "20987",
+    "NM_DOMINIO" : "2",
+    "VALOR_DOMINIO_CUSTOM" : [ ],
+    "NM_USUARIO" : "brpsouza",
+    "DS_DOMINIO" : "2",
+    "CD_EXP_DOMINIO" : "2",
+    "VALOR_DOMINIO" : [ ],
+    "DT_ATUALIZACAO" : "03/12/2025 14:00:45",
+    "DS_LAYER" : "CORE.CMDK_LTDA"
+  }, {
+    "$operation" : "CREATE",
+    "CD_EXP_DESC_DOMINIO" : "1",
+    "CD_DOMINIO" : "20988",
+    "NM_DOMINIO" : "1",
+    "VALOR_DOMINIO_CUSTOM" : [ ],
+    "NM_USUARIO" : "brpsouza",
+    "DS_DOMINIO" : "1",
+    "CD_EXP_DOMINIO" : "1",
+    "VALOR_DOMINIO" : [ ],
+    "DT_ATUALIZACAO" : "03/12/2025 14:13:34",
+    "DS_LAYER" : "CORE.CMDK_LTDA"
+  } ]
+}
