@@ -1,0 +1,79 @@
+[ {
+  "event_info" : {
+    "date" : "09/12/2025 12:28:20",
+    "sequence" : 500054,
+    "date_format" : "dd/mm/rrrr hh24:mi:ss",
+    "dml_operation" : "UPDATE",
+    "table_name" : "VALOR_DOMINIO_CUSTOM",
+    "tag_name" : "CMDK",
+    "tasy_user" : "lpfreitas",
+    "guid" : "b30a296c-5d79-4a41-8b11-3abce80a325c"
+  },
+  "server_info" : {
+    "charset" : "AMERICAN_AMERICA.AL32UTF8",
+    "database_version" : "19.0",
+    "instance_name" : "phcdb4"
+  },
+  "session_info" : {
+    "machine" : "bd2d58b54d88",
+    "os_user" : "root",
+    "tasy_user" : "lpfreitas"
+  },
+  "primary_key_values" : [ {
+    "column_name" : "NR_SEQUENCIA",
+    "data_type" : "NUMBER",
+    "new_value" : 4405,
+    "old_value" : null
+  } ],
+  "column_values" : [ {
+    "column_name" : "NR_SEQUENCIA",
+    "data_type" : "NUMBER",
+    "new_value" : 4405,
+    "old_value" : null
+  }, {
+    "column_name" : "NM_USUARIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "lpfreitas",
+    "old_value" : null
+  }, {
+    "column_name" : "DT_ATUALIZACAO_NREC",
+    "data_type" : "DATE",
+    "new_value" : "09/12/2025 12:28:15",
+    "old_value" : null
+  }, {
+    "column_name" : "NM_USUARIO_NREC",
+    "data_type" : "VARCHAR2",
+    "new_value" : "lpfreitas",
+    "old_value" : null
+  }, {
+    "column_name" : "CD_DOMAIN",
+    "data_type" : "NUMBER",
+    "new_value" : 8288,
+    "old_value" : null
+  }, {
+    "column_name" : "VL_DOMAIN",
+    "data_type" : "VARCHAR2",
+    "new_value" : 2,
+    "old_value" : null
+  }, {
+    "column_name" : "CD_EXP_DOMAIN_VALUE",
+    "data_type" : "NUMBER",
+    "new_value" : 1,
+    "old_value" : null
+  }, {
+    "column_name" : "DS_LAYER",
+    "data_type" : "VARCHAR2",
+    "new_value" : "CORE.CMDK_LTDA",
+    "old_value" : null
+  }, {
+    "column_name" : "DS_DOMAIN_CLIENT_VALUE",
+    "data_type" : "VARCHAR2",
+    "new_value" : "bruno luis",
+    "old_value" : null
+  }, {
+    "column_name" : "IE_SITUACAO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "A",
+    "old_value" : null
+  } ]
+} ]
