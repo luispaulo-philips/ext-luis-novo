@@ -1,0 +1,84 @@
+[ {
+  "event_info" : {
+    "date" : "10/12/2025 09:43:50",
+    "sequence" : 500863,
+    "date_format" : "dd/mm/rrrr hh24:mi:ss",
+    "dml_operation" : "INSERT",
+    "table_name" : "DOMINIO",
+    "tag_name" : "CMDK",
+    "tasy_user" : "lpfreitas",
+    "guid" : "6196f9dc-991b-47a2-b783-9f036f3b4924"
+  },
+  "server_info" : {
+    "charset" : "BRAZILIAN PORTUGUESE_BRAZIL.AL32UTF8",
+    "database_version" : "19.0",
+    "instance_name" : "phcdb4"
+  },
+  "session_info" : {
+    "machine" : "YY345571",
+    "os_user" : "320115671",
+    "tasy_user" : "lpfreitas"
+  },
+  "primary_key_values" : [ {
+    "column_name" : "CD_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : 21026,
+    "old_value" : null
+  } ],
+  "column_values" : [ {
+    "column_name" : "CD_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : 21026,
+    "old_value" : null
+  }, {
+    "column_name" : "NM_DOMINIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : 1,
+    "old_value" : null
+  }, {
+    "column_name" : "DS_DOMINIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : 1,
+    "old_value" : null
+  }, {
+    "column_name" : "IE_ALTERAR",
+    "data_type" : "VARCHAR2",
+    "new_value" : "N",
+    "old_value" : null
+  }, {
+    "column_name" : "NM_USUARIO",
+    "data_type" : "VARCHAR2",
+    "new_value" : "lpfreitas",
+    "old_value" : null
+  }, {
+    "column_name" : "IE_IMPLANTAR",
+    "data_type" : "VARCHAR2",
+    "new_value" : "N",
+    "old_value" : null
+  }, {
+    "column_name" : "NR_SEQ_MODULO",
+    "data_type" : "NUMBER",
+    "new_value" : "15",
+    "old_value" : null
+  }, {
+    "column_name" : "DT_ATUALIZACAO",
+    "data_type" : "DATE",
+    "new_value" : "10/12/2025 09:43:44",
+    "old_value" : null
+  }, {
+    "column_name" : "CD_EXP_DESC_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : 1,
+    "old_value" : null
+  }, {
+    "column_name" : "CD_EXP_DOMINIO",
+    "data_type" : "NUMBER",
+    "new_value" : 1,
+    "old_value" : null
+  }, {
+    "column_name" : "DS_LAYER",
+    "data_type" : "VARCHAR2",
+    "new_value" : "CORE.CMDK_LTDA",
+    "old_value" : null
+  } ]
+} ]
