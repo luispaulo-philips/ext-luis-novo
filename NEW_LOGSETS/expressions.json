@@ -1,0 +1,47 @@
+{
+  "DIC_EXPRESSAO" : [ {
+    "$operation" : "CREATE",
+    "DT_ATUALIZACAO_NREC" : "09/12/2025 12:05:00",
+    "DIC_EXPRESSAO_IDIOMA" : [ {
+      "$operation" : "CREATE",
+      "DT_ATUALIZACAO_NREC" : "09/12/2025 12:05:00",
+      "DS_LOCALE" : "pt_BR",
+      "DS_IDIOMA" : "pt",
+      "NR_SEQUENCIA" : "1144922",
+      "NM_USUARIO" : "brpsouza",
+      "IE_SITUACAO" : "A",
+      "NM_USUARIO_NREC" : "brpsouza",
+      "CD_EXPRESSAO" : "1144922",
+      "DS_EXPRESSAO" : "teste luis demo",
+      "DS_LAYER" : "CORE.CMDK_LTDA",
+      "DT_ATUALIZACAO" : "09/12/2025 12:05:00"
+    } ],
+    "DS_GLOSSARIO" : "teste luis demo glossary",
+    "NM_USUARIO" : "brpsouza",
+    "NM_USUARIO_NREC" : "brpsouza",
+    "CD_EXPRESSAO" : "1144922",
+    "DT_ATUALIZACAO" : "09/12/2025 12:05:00"
+  }, {
+    "$operation" : "CREATE",
+    "DT_ATUALIZACAO_NREC" : "09/12/2025 12:18:21",
+    "DIC_EXPRESSAO_IDIOMA" : [ {
+      "$operation" : "CREATE",
+      "DT_ATUALIZACAO_NREC" : "09/12/2025 12:18:21",
+      "DS_LOCALE" : "pt_BR",
+      "DS_IDIOMA" : "pt",
+      "NR_SEQUENCIA" : "1144924",
+      "NM_USUARIO" : "brpsouza",
+      "IE_SITUACAO" : "A",
+      "NM_USUARIO_NREC" : "brpsouza",
+      "CD_EXPRESSAO" : "1144924",
+      "DS_EXPRESSAO" : "teste com o jonas",
+      "DS_LAYER" : "CORE.CMDK_LTDA",
+      "DT_ATUALIZACAO" : "09/12/2025 12:18:21"
+    } ],
+    "DS_GLOSSARIO" : "teste com o jonas dadas",
+    "NM_USUARIO" : "brpsouza",
+    "NM_USUARIO_NREC" : "brpsouza",
+    "CD_EXPRESSAO" : "1144924",
+    "DT_ATUALIZACAO" : "09/12/2025 12:18:21"
+  } ]
+}
