@@ -1,0 +1,39 @@
+[ {
+  "event_info" : {
+    "date" : "29/12/2025 17:21:14",
+    "sequence" : 500005,
+    "date_format" : "dd/mm/rrrr hh24:mi:ss",
+    "dml_operation" : "UPDATE",
+    "table_name" : "TIPO_LOCALIZAR",
+    "tag_name" : "CMDK",
+    "tasy_user" : "lpfreitas",
+    "guid" : "730838da-6748-47ce-8c52-038940e7e7d0"
+  },
+  "server_info" : {
+    "charset" : "AMERICAN_AMERICA.AL32UTF8",
+    "database_version" : "19.0",
+    "instance_name" : "phcdb4"
+  },
+  "session_info" : {
+    "machine" : "d63db4a0b056",
+    "os_user" : "root",
+    "tasy_user" : "lpfreitas"
+  },
+  "primary_key_values" : [ {
+    "column_name" : "NR_SEQUENCIA",
+    "data_type" : "NUMBER",
+    "new_value" : 25471,
+    "old_value" : 25471
+  } ],
+  "column_values" : [ {
+    "column_name" : "DS_SQL",
+    "data_type" : "VARCHAR2",
+    "new_value" : "select 2 from dual",
+    "old_value" : "select 1 from dual"
+  }, {
+    "column_name" : "NR_SEQUENCIA",
+    "data_type" : "NUMBER",
+    "new_value" : 25471,
+    "old_value" : 25471
+  } ]
+} ]
