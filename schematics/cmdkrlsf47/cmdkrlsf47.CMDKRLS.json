@@ -120,11 +120,169 @@
                       "children" : [ {
                         "children" : [ {
                           "checkParentsRelease" : false,
-                          "children" : [ ],
+                          "children" : [ {
+                            "code" : 704179423,
+                            "componentType" : "WPOPUP",
+                            "description" : "Liberação",
+                            "displayOrder" : 1,
+                            "menuItems" : [ {
+                              "aiContextMenu" : false,
+                              "alignment" : "E",
+                              "buttonType" : "V",
+                              "children" : [ ],
+                              "code" : 704229112,
+                              "componentType" : "MENUITEM",
+                              "enabled" : true,
+                              "events" : [ {
+                                "eventActions" : [ {
+                                  "actionOrder" : 1,
+                                  "actionSeq" : 706580430,
+                                  "compReactivateCode" : 689383170,
+                                  "eventAction" : "PROC",
+                                  "multipleBodyItemsSupported" : false,
+                                  "params" : [ {
+                                    "code" : 706623992,
+                                    "masterCode" : 689383170,
+                                    "masterName" : "NR_SEQUENCIA",
+                                    "originParam" : "OBJECT",
+                                    "parameterName" : "P_NR_SEQUENCIA",
+                                    "parameterSeq" : 1
+                                  } ],
+                                  "procedureCode" : 10167800,
+                                  "reloadLine" : "S"
+                                } ],
+                                "eventSeq" : 706580429,
+                                "eventType" : "C"
+                              } ],
+                              "expressionCode" : 774352,
+                              "menuCode" : 704179423,
+                              "metadataFile" : false,
+                              "name" : "Submit",
+                              "objectType" : "COMPONENT",
+                              "order" : 1,
+                              "parentObjectCode" : 704179423,
+                              "rules" : [ {
+                                "conditionDescription" : "ativar",
+                                "conditions" : [ {
+                                  "baseAttribute" : "IE_SITUACAO",
+                                  "condition" : "=",
+                                  "conditionSeq" : 704635470,
+                                  "option" : "ATTRIBUTE WITH VALUE",
+                                  "referenceObjectCode" : 689383170,
+                                  "scriptReference" : 689383170,
+                                  "value" : "A"
+                                }, {
+                                  "baseAttribute" : "DT_LIBERACAO",
+                                  "condition" : "IS NULL",
+                                  "conditionSeq" : 705037860,
+                                  "option" : "ATTRIBUTE WITH VALUE",
+                                  "referenceObjectCode" : 689383170,
+                                  "scriptReference" : 689383170
+                                } ],
+                                "nrSeqRule" : 704598702,
+                                "result" : "ENABLED"
+                              } ],
+                              "text" : "Submit",
+                              "topList" : false,
+                              "type" : "BUTTON",
+                              "visible" : true
+                            } ],
+                            "objectType" : "COMPONENT",
+                            "parentObjectCode" : 689383170,
+                            "popUpHandle" : "S"
+                          }, {
+                            "code" : 710297398,
+                            "componentType" : "WPOPUP",
+                            "description" : "Inativação",
+                            "displayOrder" : 2,
+                            "menuItems" : [ {
+                              "aiContextMenu" : false,
+                              "alignment" : "E",
+                              "children" : [ ],
+                              "code" : 710308681,
+                              "componentType" : "MENUITEM",
+                              "enabled" : true,
+                              "events" : [ {
+                                "eventActions" : [ {
+                                  "actionOrder" : 2,
+                                  "actionSeq" : 710315735,
+                                  "compReactivateCode" : 689383170,
+                                  "eventAction" : "PROC",
+                                  "multipleBodyItemsSupported" : false,
+                                  "params" : [ {
+                                    "code" : 710331225,
+                                    "masterCode" : 689383170,
+                                    "masterName" : "NR_SEQUENCIA",
+                                    "originParam" : "OBJECT",
+                                    "parameterName" : "P_NR_SEQUENCIA",
+                                    "parameterSeq" : 1
+                                  } ],
+                                  "procedureCode" : 10167804,
+                                  "reloadLine" : "S"
+                                } ],
+                                "eventSeq" : 710315734,
+                                "eventType" : "C"
+                              } ],
+                              "expressionCode" : 318745,
+                              "menuCode" : 710297398,
+                              "metadataFile" : false,
+                              "name" : "Disable",
+                              "objectType" : "COMPONENT",
+                              "order" : 2,
+                              "parentObjectCode" : 710297398,
+                              "rules" : [ {
+                                "conditionDescription" : "Ativar",
+                                "conditions" : [ {
+                                  "baseAttribute" : "DT_LIBERACAO",
+                                  "condition" : "IS NOT NULL",
+                                  "conditionSeq" : 710541429,
+                                  "option" : "ATTRIBUTE WITH VALUE",
+                                  "referenceObjectCode" : 689383170,
+                                  "scriptReference" : 689383170
+                                }, {
+                                  "baseAttribute" : "IE_SITUACAO",
+                                  "condition" : "=",
+                                  "conditionSeq" : 710585716,
+                                  "option" : "ATTRIBUTE WITH VALUE",
+                                  "referenceObjectCode" : 689383170,
+                                  "scriptReference" : 689383170,
+                                  "value" : "A"
+                                } ],
+                                "nrSeqRule" : 710512976,
+                                "result" : "ENABLED"
+                              } ],
+                              "text" : "Disable",
+                              "topList" : false,
+                              "type" : "STANDARD",
+                              "visible" : true
+                            } ],
+                            "objectType" : "COMPONENT",
+                            "parentObjectCode" : 689383170,
+                            "popUpHandle" : "S"
+                          } ],
                           "cmdkMetadataCustomization" : false,
                           "code" : 689383170,
                           "componentType" : "WDBPANEL",
-                          "crudRules" : [ ],
+                          "crudRules" : [ {
+                            "canDelete" : false,
+                            "canDuplicate" : false,
+                            "canInsert" : false,
+                            "canUpdate" : true,
+                            "code" : 709293386,
+                            "rules" : [ {
+                              "conditionDescription" : "Rule Name",
+                              "conditions" : [ {
+                                "baseAttribute" : "IE_SITUACAO",
+                                "condition" : "=",
+                                "conditionSeq" : 709388713,
+                                "option" : "ATTRIBUTE WITH VALUE",
+                                "referenceObjectCode" : 689383170,
+                                "scriptReference" : 689383170,
+                                "value" : "A"
+                              } ],
+                              "ruleSeq" : 709379265
+                            } ]
+                          } ],
                           "customProperties" : {
                             "allowBatchSignature" : "N",
                             "showDynamicReport" : "N",
@@ -163,7 +321,7 @@
                             "selectFirstRow" : false,
                             "unificarCountRegistros" : true,
                             "useNewGrid" : true,
-                            "usePagination" : true
+                            "usePagination" : false
                           },
                           "reports" : [ ],
                           "signatureConfigured" : false,
