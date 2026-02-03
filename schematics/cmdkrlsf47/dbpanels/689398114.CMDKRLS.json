@@ -127,6 +127,7 @@
         "options" : [ ],
         "ordem" : 3,
         "primaryKey" : false,
+        "qtLargura" : 700,
         "readOnly" : false,
         "row" : 70,
         "sensitive" : false,

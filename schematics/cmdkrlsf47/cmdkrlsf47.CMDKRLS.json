@@ -39,7 +39,58 @@
                       "children" : [ {
                         "children" : [ {
                           "checkParentsRelease" : false,
-                          "children" : [ ],
+                          "children" : [ {
+                            "code" : 121678615,
+                            "componentType" : "WPOPUP",
+                            "description" : "Registrar",
+                            "displayOrder" : 1,
+                            "menuItems" : [ {
+                              "aiContextMenu" : false,
+                              "alignment" : "E",
+                              "children" : [ ],
+                              "code" : 121685703,
+                              "componentType" : "MENUITEM",
+                              "enabled" : true,
+                              "events" : [ {
+                                "eventActions" : [ {
+                                  "actionOrder" : 1,
+                                  "actionSeq" : 121696608,
+                                  "compReactivateCode" : 688883694,
+                                  "endpoint" : "/cdf1337d-f558-48ff-b325-543e0c90d007/schematics-dx/registrarteste",
+                                  "eventAction" : "SMARTFLOW",
+                                  "multipleBodyItemsSupported" : false,
+                                  "params" : [ {
+                                    "code" : 121732718,
+                                    "function" : 0,
+                                    "masterCode" : 688883694,
+                                    "masterName" : "CD_ESTABELECIMENTO",
+                                    "originParam" : "OBJECT",
+                                    "parameterCode" : 0,
+                                    "parameterName" : "CD_ESTABELECIMENTO",
+                                    "parameterSeq" : 0
+                                  } ],
+                                  "reloadLine" : "S"
+                                } ],
+                                "eventSeq" : 121696607,
+                                "eventType" : "C"
+                              } ],
+                              "expressionCode" : 306104,
+                              "menuCode" : 121678615,
+                              "metadataFile" : false,
+                              "name" : "Register",
+                              "objectType" : "COMPONENT",
+                              "order" : 1,
+                              "parentObjectCode" : 121678615,
+                              "rules" : [ ],
+                              "text" : "Register",
+                              "topList" : false,
+                              "type" : "STANDARD",
+                              "visible" : true
+                            } ],
+                            "objectType" : "COMPONENT",
+                            "parentObjectCode" : 688883694,
+                            "popUpHandle" : "N"
+                          } ],
                           "cmdkMetadataCustomization" : false,
                           "code" : 688883694,
                           "componentType" : "WDBPANEL",
