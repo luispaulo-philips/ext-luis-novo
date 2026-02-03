@@ -68,6 +68,12 @@
                                     "parameterCode" : 0,
                                     "parameterName" : "CD_ESTABELECIMENTO",
                                     "parameterSeq" : 0
+                                  }, {
+                                    "code" : 151337439,
+                                    "masterName" : "NM_USUARIO",
+                                    "originParam" : "SYSTEM",
+                                    "parameterName" : "PARAM",
+                                    "parameterSeq" : 1
                                   } ],
                                   "reloadLine" : "S"
                                 } ],
@@ -229,6 +235,10 @@
                                   "option" : "ATTRIBUTE WITH VALUE",
                                   "referenceObjectCode" : 689383170,
                                   "scriptReference" : 689383170
+                                }, {
+                                  "conditionSeq" : 154049476,
+                                  "option" : "SCREEN MODE (GRID / DETAIL)",
+                                  "screenModeType" : "G"
                                 } ],
                                 "nrSeqRule" : 704598702,
                                 "result" : "ENABLED"
@@ -315,23 +325,22 @@
                           "code" : 689383170,
                           "componentType" : "WDBPANEL",
                           "crudRules" : [ {
-                            "canDelete" : false,
+                            "canDelete" : true,
                             "canDuplicate" : false,
                             "canInsert" : false,
                             "canUpdate" : true,
-                            "code" : 709293386,
+                            "code" : 155602672,
                             "rules" : [ {
-                              "conditionDescription" : "Rule Name",
+                              "conditionDescription" : "Rule Delete",
                               "conditions" : [ {
-                                "baseAttribute" : "IE_SITUACAO",
-                                "condition" : "=",
-                                "conditionSeq" : 709388713,
+                                "baseAttribute" : "DT_LIBERACAO",
+                                "condition" : "IS NULL",
+                                "conditionSeq" : 155620310,
                                 "option" : "ATTRIBUTE WITH VALUE",
                                 "referenceObjectCode" : 689383170,
-                                "scriptReference" : 689383170,
-                                "value" : "A"
+                                "scriptReference" : 689383170
                               } ],
-                              "ruleSeq" : 709379265
+                              "ruleSeq" : 155608494
                             } ]
                           } ],
                           "customProperties" : {
