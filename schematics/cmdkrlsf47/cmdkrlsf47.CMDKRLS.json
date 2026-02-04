@@ -69,10 +69,10 @@
                                     "parameterName" : "CD_ESTABELECIMENTO",
                                     "parameterSeq" : 0
                                   }, {
-                                    "code" : 151337439,
-                                    "masterName" : "NM_USUARIO",
+                                    "code" : 224388138,
+                                    "masterName" : "nm_usuario_p",
                                     "originParam" : "SYSTEM",
-                                    "parameterName" : "PARAM",
+                                    "parameterName" : "NM_USUARIO_P",
                                     "parameterSeq" : 1
                                   } ],
                                   "reloadLine" : "S"

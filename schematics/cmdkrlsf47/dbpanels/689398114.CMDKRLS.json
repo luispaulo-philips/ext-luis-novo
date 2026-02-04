@@ -47,8 +47,8 @@
         "sensitive" : false,
         "tabStop" : false,
         "tipoAtributo" : "DATE",
-        "tooltip" : "Teste9999999",
-        "tooltipExpressionCode" : 1
+        "tooltip" : "Informe a data de início de vigência.",
+        "tooltipExpressionCode" : 561359
       }, {
         "IeTooltip" : false,
         "alinharDireita" : false,
@@ -89,8 +89,8 @@
         "sensitive" : false,
         "tabStop" : false,
         "tipoAtributo" : "DATE",
-        "tooltip" : "Teste9999999",
-        "tooltipExpressionCode" : 1
+        "tooltip" : "Informe a data final de vigência",
+        "tooltipExpressionCode" : 566090
       }, {
         "IeTooltip" : false,
         "alinharDireita" : false,
@@ -133,8 +133,8 @@
         "sensitive" : false,
         "tabStop" : false,
         "tipoAtributo" : "VARCHAR2",
-        "tooltip" : "Teste9999999",
-        "tooltipExpressionCode" : 1,
+        "tooltip" : "Informe o nome do termo de responsabilidade.",
+        "tooltipExpressionCode" : 970968,
         "widthHTML" : 500
       }, {
         "IeTooltip" : false,
@@ -175,8 +175,8 @@
         "sensitive" : false,
         "tabStop" : false,
         "tipoAtributo" : "VARCHAR2",
-        "tooltip" : "Teste9999999",
-        "tooltipExpressionCode" : 1,
+        "tooltip" : "Marque para definir a situação como ativa.",
+        "tooltipExpressionCode" : 561319,
         "vlDefault" : "A"
       }, {
         "IeTooltip" : false,

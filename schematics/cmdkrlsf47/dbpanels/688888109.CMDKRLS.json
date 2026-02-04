@@ -81,8 +81,8 @@
         "sensitive" : false,
         "tabStop" : false,
         "tipoAtributo" : "NUMBER",
-        "tooltip" : "Selecione o estabelecimento que pode visualizar o cadastro. Se não selecionado, todos os estabelecimentos podem visualizá-lo.",
-        "tooltipExpressionCode" : 561348,
+        "tooltip" : "Campo que define o estabelecimento do Tasy no qual a configuração do chatbot WhatsApp será aplicada. \nA seleção deste estabelecimento é utilizada para associar as credenciais e parâmetros de integração do WhatsApp Business ao contexto operacional correto.",
+        "tooltipExpressionCode" : 1148210,
         "vlDefault" : "@ESTAB"
       }, {
         "IeTooltip" : false,
@@ -123,8 +123,8 @@
         "sensitive" : false,
         "tabStop" : false,
         "tipoAtributo" : "VARCHAR2",
-        "tooltip" : "ANGIOLOGIA",
-        "tooltipExpressionCode" : 2
+        "tooltip" : "Informe o identificador do Business Manager utilizado no Meta Business.",
+        "tooltipExpressionCode" : 1148211
       }, {
         "IeTooltip" : false,
         "alinharDireita" : false,
@@ -162,8 +162,8 @@
         "sensitive" : false,
         "tabStop" : false,
         "tipoAtributo" : "VARCHAR2",
-        "tooltip" : "ANGIOLOGIA",
-        "tooltipExpressionCode" : 2
+        "tooltip" : "Informe o token de acesso utilizado para autenticação das chamadas à API do WhatsApp Business.",
+        "tooltipExpressionCode" : 1148212
       }, {
         "IeTooltip" : false,
         "alinharDireita" : false,
@@ -203,8 +203,8 @@
         "sensitive" : false,
         "tabStop" : false,
         "tipoAtributo" : "VARCHAR2",
-        "tooltip" : "ANGIOLOGIA",
-        "tooltipExpressionCode" : 2
+        "tooltip" : "Informe o número de telefone utilizado pelo WhatsApp Business no formato internacional exemplo \"+5599999999999\".",
+        "tooltipExpressionCode" : 1148213
       }, {
         "IeTooltip" : false,
         "alinharDireita" : false,
@@ -244,8 +244,8 @@
         "sensitive" : false,
         "tabStop" : false,
         "tipoAtributo" : "VARCHAR2",
-        "tooltip" : "ANGIOLOGIA",
-        "tooltipExpressionCode" : 2,
+        "tooltip" : "Exibe o status do registro do WhatsApp Business junto à Meta.",
+        "tooltipExpressionCode" : 1148215,
         "vlDefault" : "Não registrado"
       }, {
         "IeTooltip" : false,
@@ -286,8 +286,8 @@
         "sensitive" : false,
         "tabStop" : false,
         "tipoAtributo" : "VARCHAR2",
-        "tooltip" : "ANGIOLOGIA",
-        "tooltipExpressionCode" : 2
+        "tooltip" : "Informe o identificador da conta do WhatsApp Business.",
+        "tooltipExpressionCode" : 1148216
       }, {
         "IeTooltip" : false,
         "alinharDireita" : false,
@@ -327,8 +327,8 @@
         "sensitive" : false,
         "tabStop" : false,
         "tipoAtributo" : "VARCHAR2",
-        "tooltip" : "ANGIOLOGIA",
-        "tooltipExpressionCode" : 2
+        "tooltip" : "Informe o identificador do número de telefone cadastrado no WhatsApp Business.",
+        "tooltipExpressionCode" : 1148217
       }, {
         "IeTooltip" : false,
         "alinharDireita" : false,
@@ -365,8 +365,8 @@
         "sensitive" : false,
         "tabStop" : false,
         "tipoAtributo" : "VARCHAR2",
-        "tooltip" : "ANGIOLOGIA",
-        "tooltipExpressionCode" : 2
+        "tooltip" : "Verification code é o PIN de 6 dígitos obrigatório usado para registrar o número no WhatsApp Business.\nSe o número já tiver verificação em duas etapas, informe o PIN atual. Caso contrário, informe um novo PIN de 6 dígitos, que será configurado como a verificação em duas etapas do número.",
+        "tooltipExpressionCode" : 1148214
       }, {
         "IeTooltip" : false,
         "alinharDireita" : false,
