@@ -1,0 +1,37 @@
+{
+  "identifier" : "CMDKRLS",
+  "migrations" : [ {
+    "op" : "add",
+    "path" : "/",
+    "value" : {
+      "allowCmdkCustomization" : true,
+      "columns" : [ {
+        "componente" : "TEXTBOX",
+        "configurableType" : "N",
+        "hiddenByUser" : false,
+        "ieAlinhamento" : "E",
+        "ieReadOnly" : true,
+        "ieTotalizar" : false,
+        "ieVisible" : true,
+        "inlineComponente" : "ed",
+        "labelColuna" : "Person code",
+        "labelExpressionCode" : 285312,
+        "layout" : "T",
+        "nmCampoBase" : "CD_PESSOA_FISICA",
+        "nrSequencia" : 691050267,
+        "options" : [ ],
+        "ordem" : 1,
+        "sensitive" : false,
+        "tipoColuna" : "Number",
+        "tipoTotalizador" : "N",
+        "userCanConfig" : true
+      } ],
+      "configurable" : "N",
+      "description" : "Consulta agendamento",
+      "query" : "select * from cmdkrls_luis_historico\n@RESTRICAO",
+      "title" : "History ",
+      "titleExpressionCode" : 291339
+    }
+  } ],
+  "type" : "PARTNER"
+}
