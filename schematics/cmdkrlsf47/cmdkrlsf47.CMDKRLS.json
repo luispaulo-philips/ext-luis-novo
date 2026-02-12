@@ -470,7 +470,63 @@
           "children" : [ {
             "children" : [ {
               "children" : [ {
-                "children" : [ ],
+                "children" : [ {
+                  "children" : [ {
+                    "children" : [ ],
+                    "cmdkMetadataCustomization" : false,
+                    "code" : 918878015,
+                    "componentType" : "WFILTRO",
+                    "customProperties" : {
+                      "enableMultiFilters" : "N"
+                    },
+                    "description" : "Filter",
+                    "dictionaryCode" : 690681392,
+                    "experimentalFeatures" : {
+                      "experimentalForm" : false
+                    },
+                    "metadataFile" : true,
+                    "objectType" : "COMPONENT",
+                    "params" : [ ],
+                    "parentObjectCode" : 903285414,
+                    "properties" : {
+                      "closeAfterSearch" : false,
+                      "height" : 500,
+                      "lazyLoadDetail" : false,
+                      "modal" : true,
+                      "openOnShow" : false,
+                      "orientation" : "LEFT",
+                      "responsive" : false,
+                      "width" : 500
+                    }
+                  } ],
+                  "cmdkMetadataCustomization" : false,
+                  "code" : 903285414,
+                  "componentType" : "WCPANEL",
+                  "customProperties" : {
+                    "showDynamicReport" : "N"
+                  },
+                  "description" : "HistoricoCPanel",
+                  "dictionaryCode" : 690997515,
+                  "displayOrder" : 1,
+                  "legends" : [ ],
+                  "metadataFile" : true,
+                  "objectType" : "COMPONENT",
+                  "params" : [ ],
+                  "parentObjectCode" : 690661814,
+                  "properties" : {
+                    "autoCreateChild" : false,
+                    "editableGrid" : false,
+                    "emptyActivation" : false,
+                    "multiSelection" : false,
+                    "paginationType" : "P",
+                    "reportConfigVisible" : false,
+                    "saveGridColumnOrder" : false,
+                    "selectFirstRow" : false,
+                    "unificarCountRegistros" : false,
+                    "useNewGrid" : true
+                  },
+                  "reports" : [ ]
+                } ],
                 "code" : 690661814,
                 "description" : "Region 0",
                 "displayOrder" : 1,
