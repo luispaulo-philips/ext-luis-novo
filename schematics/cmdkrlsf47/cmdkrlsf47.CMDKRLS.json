@@ -489,13 +489,13 @@
                     "params" : [ ],
                     "parentObjectCode" : 903285414,
                     "properties" : {
-                      "closeAfterSearch" : false,
+                      "closeAfterSearch" : true,
                       "height" : 500,
                       "lazyLoadDetail" : false,
                       "modal" : true,
                       "openOnShow" : false,
                       "orientation" : "LEFT",
-                      "responsive" : false,
+                      "responsive" : true,
                       "width" : 500
                     }
                   } ],
