@@ -1,0 +1,277 @@
+[
+    {
+        "id": "f1a2b3c4d5e6f7a8",
+        "type": "tab",
+        "label": "Whatsapp Webhook",
+        "disabled": false,
+        "info": "Flow integrado com APIs Tasy para agendamento via WhatsApp",
+        "dbPanelCode": "",
+        "extensionId": "8693626c-a314-4db6-98bb-f364c1297ac0"
+    },
+    {
+        "id": "c1e2c8628a1cb26a",
+        "type": "http in",
+        "z": "f1a2b3c4d5e6f7a8",
+        "name": "Meta Verify GET",
+        "path": "/meta-whatsapp",
+        "url": "/8693626c-a314-4db6-98bb-f364c1297ac0/meta-whatsapp",
+        "method": "get",
+        "usetls": false,
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 140,
+        "y": 140,
+        "wires": [
+            [
+                "a1f4c2e8b7d94310",
+                "d525e46faca3944a"
+            ]
+        ]
+    },
+    {
+        "id": "a1f4c2e8b7d94310",
+        "type": "function",
+        "z": "f1a2b3c4d5e6f7a8",
+        "name": "Preparar Busca Verify Token",
+        "func": "const q = (msg.req && msg.req.query) ? msg.req.query : {};\nmsg.hubMode = String(q['hub.mode'] || q.hub_mode || '').trim();\nmsg.hubChallenge = String(q['hub.challenge'] || q.hub_challenge || '').trim();\nmsg.verifyTokenReceived = String(q['hub.verify_token'] || q.hub_verify_token || '').trim();\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 100,
+        "wires": [
+            [
+                "b3d91f6a2c4e8f11"
+            ]
+        ]
+    },
+    {
+        "id": "b3d91f6a2c4e8f11",
+        "type": "sql builder",
+        "z": "f1a2b3c4d5e6f7a8",
+        "parameters": [
+            {
+                "variable": "verifyTokenReceived",
+                "value": "verifyTokenReceived",
+                "type": "msg"
+            }
+        ],
+        "name": "SQL: Verify Token recebido",
+        "field": "topic",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "template": "select verify_token, phone_number_id\nfrom CMDKRLS_CHAT_CONFIGURACOES\nwhere verify_token = :verifyTokenReceived\norder by dt_atualizacao desc, nr_sequencia desc\nfetch first 1 rows only",
+        "output": "str",
+        "x": 690,
+        "y": 100,
+        "wires": [
+            [
+                "c7e5a2d9f4b68120"
+            ]
+        ]
+    },
+    {
+        "id": "c7e5a2d9f4b68120",
+        "type": "tasy data access",
+        "z": "f1a2b3c4d5e6f7a8",
+        "name": "Tasy Data Access (Verify Token)",
+        "x": 470,
+        "y": 180,
+        "wires": [
+            [
+                "94ca95e4361e8692"
+            ]
+        ]
+    },
+    {
+        "id": "94ca95e4361e8692",
+        "type": "function",
+        "z": "f1a2b3c4d5e6f7a8",
+        "name": "Verify Token",
+        "func": "const extractRows = (payload) => {\n if (Array.isArray(payload)) return payload;\n if (payload && payload.select && payload.select[0] && Array.isArray(payload.select[0].resultSet)) return payload.select[0].resultSet;\n return [];\n};\n\nconst rows = extractRows(msg.payload);\nconst row = rows[0] || null;\nconst verifyToken = row ? String(row.VERIFY_TOKEN || row.verify_token || '').trim() : '';\n\nif (msg.hubMode !== 'subscribe' || !msg.verifyTokenReceived || !verifyToken) {\n msg.payload = 'Forbidden';\n msg.statusCode = 403;\n return msg;\n}\n\nif (msg.verifyTokenReceived === verifyToken) {\n msg.payload = msg.hubChallenge;\n msg.statusCode = 200;\n} else {\n msg.payload = 'Forbidden';\n msg.statusCode = 403;\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 180,
+        "wires": [
+            [
+                "338bdbaccc6523cc",
+                "dbafea26050b800e"
+            ]
+        ]
+    },
+    {
+        "id": "338bdbaccc6523cc",
+        "type": "http response",
+        "z": "f1a2b3c4d5e6f7a8",
+        "name": "Verify Response",
+        "statusCode": "",
+        "headers": {},
+        "x": 980,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "d525e46faca3944a",
+        "type": "debug",
+        "z": "f1a2b3c4d5e6f7a8",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 340,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "dbafea26050b800e",
+        "type": "debug",
+        "z": "f1a2b3c4d5e6f7a8",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 600,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "5db199ea901f74f0",
+        "type": "http in",
+        "z": "f1a2b3c4d5e6f7a8",
+        "name": "Webhook Meta",
+        "path": "/meta-whatsapp",
+        "url": "/8693626c-a314-4db6-98bb-f364c1297ac0/meta-whatsapp",
+        "method": "post",
+        "usetls": false,
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 140,
+        "y": 360,
+        "wires": [
+            [
+                "85bc6c80829cd952",
+                "493e9ffbd8350054"
+            ]
+        ]
+    },
+    {
+        "id": "85bc6c80829cd952",
+        "type": "function",
+        "z": "f1a2b3c4d5e6f7a8",
+        "name": "Extrair phone_number_id",
+        "func": "// Extrai o phone_number_id do webhook do WhatsApp\nlet phoneId = msg.payload.entry[0].changes[0].value.metadata.phone_number_id;\nmsg.phoneId = phoneId;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 360,
+        "wires": [
+            [
+                "49d188c9918d1fa8",
+                "b95d4bde46a8b106"
+            ]
+        ]
+    },
+    {
+        "id": "49d188c9918d1fa8",
+        "type": "switch",
+        "z": "f1a2b3c4d5e6f7a8",
+        "name": "Roteia por phone_number_id",
+        "property": "phoneId",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "951070824748480",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "1022669557593819",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 630,
+        "y": 360,
+        "wires": [
+            [
+                "81a7c151893d3c20"
+            ],
+            [
+                "9c244afca990699b"
+            ]
+        ]
+    },
+    {
+        "id": "81a7c151893d3c20",
+        "type": "link out",
+        "z": "f1a2b3c4d5e6f7a8",
+        "name": "Enviar para Flow A",
+        "mode": "link",
+        "links": [],
+        "x": 860,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "9c244afca990699b",
+        "type": "link out",
+        "z": "f1a2b3c4d5e6f7a8",
+        "name": "Enviar para Flow B",
+        "mode": "link",
+        "links": [],
+        "x": 860,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "b95d4bde46a8b106",
+        "type": "debug",
+        "z": "f1a2b3c4d5e6f7a8",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 550,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "493e9ffbd8350054",
+        "type": "debug",
+        "z": "f1a2b3c4d5e6f7a8",
+        "name": "debug 13",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 340,
+        "y": 440,
+        "wires": []
+    }
+]
