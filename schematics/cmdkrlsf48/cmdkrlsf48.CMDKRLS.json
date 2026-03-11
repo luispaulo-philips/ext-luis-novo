@@ -1,0 +1,574 @@
+{
+  "identifier" : "CMDKRLS",
+  "migrations" : [ {
+    "op" : "add",
+    "path" : "/",
+    "value" : {
+      "avoidMemoryLeaks" : true,
+      "dialogs" : [ ],
+      "disableDeveloperBar" : false,
+      "experimentalFeatures" : { },
+      "externalAccessItens" : {
+        "ALL_FEATURES" : [ ],
+        "SPOTLIGHT_FEATURES" : [ ]
+      },
+      "externalAcessModal" : false,
+      "featureCode" : 99760,
+      "globalPopups" : [ ],
+      "metadataToFile" : true,
+      "noDataExpressionCode" : 397569,
+      "children" : [ {
+        "allowCmdkCustomization" : true,
+        "restrictPrimaryLevel" : "N",
+        "restrictSecondaryLevel" : "N",
+        "restrictTertiaryLevel" : "N",
+        "children" : [ {
+          "children" : [ {
+            "children" : [ {
+              "allowCmdkCustomization" : true,
+              "restrictPrimaryLevel" : "N",
+              "restrictSecondaryLevel" : "N",
+              "restrictTertiaryLevel" : "N",
+              "children" : [ {
+                "allowCmdkCustomization" : true,
+                "restrictPrimaryLevel" : "N",
+                "restrictSecondaryLevel" : "N",
+                "restrictTertiaryLevel" : "N",
+                "children" : [ {
+                  "children" : [ {
+                    "children" : [ {
+                      "checkParentsRelease" : false,
+                      "children" : [ {
+                        "code" : 548332765,
+                        "componentType" : "WPOPUP",
+                        "description" : " Registrar",
+                        "displayOrder" : 1,
+                        "menuItems" : [ {
+                          "aiContextMenu" : false,
+                          "alignment" : "E",
+                          "children" : [ ],
+                          "code" : 548340517,
+                          "componentType" : "MENUITEM",
+                          "enabled" : true,
+                          "events" : [ {
+                            "eventActions" : [ {
+                              "actionOrder" : 1,
+                              "actionSeq" : 548375245,
+                              "compReactivateCode" : 547923838,
+                              "endpoint" : "/8693626c-a314-4db6-98bb-f364c1297ac0/schematics-dx/registrar-waba",
+                              "eventAction" : "SMARTFLOW",
+                              "multipleBodyItemsSupported" : false,
+                              "params" : [ {
+                                "code" : 552410877,
+                                "masterCode" : 547923838,
+                                "masterName" : "CD_ESTABELECIMENTO",
+                                "originParam" : "OBJECT",
+                                "parameterName" : "CD_ESTABELECIMENTO",
+                                "parameterSeq" : 0
+                              }, {
+                                "code" : 552431996,
+                                "masterName" : "nm_usuario_p",
+                                "originParam" : "SYSTEM",
+                                "parameterName" : "NM_USUARIO_P",
+                                "parameterSeq" : 1
+                              }, {
+                                "code" : 140575849,
+                                "function" : 0,
+                                "masterCode" : 547923838,
+                                "masterName" : "NR_SEQUENCIA",
+                                "originParam" : "OBJECT",
+                                "parameterCode" : 0,
+                                "parameterName" : "NR_SEQUENCIA",
+                                "parameterSeq" : 2
+                              } ],
+                              "reloadLine" : "S"
+                            } ],
+                            "eventSeq" : 548375244,
+                            "eventType" : "C"
+                          } ],
+                          "expressionCode" : 306104,
+                          "menuCode" : 548332765,
+                          "metadataFile" : false,
+                          "name" : "Register",
+                          "objectType" : "COMPONENT",
+                          "order" : 1,
+                          "parentObjectCode" : 548332765,
+                          "rules" : [ ],
+                          "text" : "Register",
+                          "topList" : false,
+                          "type" : "STANDARD",
+                          "visible" : true
+                        } ],
+                        "objectType" : "COMPONENT",
+                        "parentObjectCode" : 547923838,
+                        "popUpHandle" : "N"
+                      } ],
+                      "cmdkMetadataCustomization" : false,
+                      "code" : 547923838,
+                      "componentType" : "WDBPANEL",
+                      "crudRules" : [ ],
+                      "customProperties" : {
+                        "allowBatchSignature" : "N",
+                        "showDynamicReport" : "N",
+                        "withoutCache" : "N"
+                      },
+                      "description" : "DbPanelGerais",
+                      "displayOrder" : 1,
+                      "isMaster" : false,
+                      "legends" : [ ],
+                      "masterObjectCode" : 0,
+                      "metadataFile" : true,
+                      "objectType" : "COMPONENT",
+                      "params" : [ ],
+                      "parentObjectCode" : 547915209,
+                      "properties" : {
+                        "action" : "",
+                        "activateOnDetail" : false,
+                        "autoCreateChild" : false,
+                        "cacheDetailViews" : false,
+                        "checkReportRelease" : true,
+                        "confirmReleaseRecord" : false,
+                        "destroyDetail" : false,
+                        "editableGrid" : false,
+                        "emptyActivation" : false,
+                        "gridWhenSave" : true,
+                        "lazyLoadDetail" : false,
+                        "multiSelection" : false,
+                        "onlyDetail" : false,
+                        "pageSize" : 0,
+                        "paginationType" : "P",
+                        "qtMaxRecord" : 0,
+                        "readOnlyType" : "N",
+                        "reportConfigVisible" : false,
+                        "responsive" : false,
+                        "saveGridColumnOrder" : false,
+                        "selectFirstRow" : false,
+                        "unificarCountRegistros" : true,
+                        "useNewGrid" : true,
+                        "usePagination" : true
+                      },
+                      "reports" : [ ],
+                      "signatureConfigured" : false,
+                      "viewCode" : 548283309
+                    } ],
+                    "code" : 547915209,
+                    "description" : "Region 0",
+                    "displayOrder" : 1,
+                    "objectType" : "REGION",
+                    "parentObjectCode" : 547915208
+                  } ],
+                  "code" : 547915208,
+                  "description" : "Master region",
+                  "masterRegionType" : "LAYOUT_A",
+                  "objectType" : "MASTER_REGION",
+                  "parentObjectCode" : 547796112
+                } ],
+                "code" : 547796112,
+                "configurable" : true,
+                "hasObjSchemRules" : false,
+                "description" : "General",
+                "displayOrder" : 1,
+                "expressionCode" : 316421,
+                "expressionDescription" : "General",
+                "objectType" : "TAB",
+                "parentObjectCode" : 547796111,
+                "topList" : false,
+                "visible" : "S"
+              }, {
+                "allowCmdkCustomization" : true,
+                "restrictPrimaryLevel" : "N",
+                "restrictSecondaryLevel" : "N",
+                "restrictTertiaryLevel" : "N",
+                "children" : [ {
+                  "children" : [ {
+                    "children" : [ {
+                      "checkParentsRelease" : false,
+                      "children" : [ {
+                        "code" : 561423290,
+                        "componentType" : "WPOPUP",
+                        "description" : "Liberação",
+                        "displayOrder" : 1,
+                        "menuItems" : [ {
+                          "aiContextMenu" : false,
+                          "alignment" : "E",
+                          "buttonType" : "V",
+                          "children" : [ ],
+                          "code" : 561430619,
+                          "componentType" : "MENUITEM",
+                          "enabled" : true,
+                          "events" : [ {
+                            "eventActions" : [ {
+                              "actionOrder" : 1,
+                              "actionSeq" : 561448251,
+                              "compReactivateCode" : 550869659,
+                              "eventAction" : "PROC",
+                              "multipleBodyItemsSupported" : false,
+                              "params" : [ {
+                                "code" : 561468323,
+                                "masterCode" : 550869659,
+                                "masterName" : "NR_SEQUENCIA",
+                                "originParam" : "OBJECT",
+                                "parameterName" : "P_NR_SEQUENCIA",
+                                "parameterSeq" : 1
+                              } ],
+                              "procedureCode" : 10171154,
+                              "reloadLine" : "S"
+                            } ],
+                            "eventSeq" : 561448250,
+                            "eventType" : "C"
+                          } ],
+                          "expressionCode" : 774352,
+                          "menuCode" : 561423290,
+                          "metadataFile" : false,
+                          "name" : "Submit",
+                          "objectType" : "COMPONENT",
+                          "order" : 1,
+                          "parentObjectCode" : 561423290,
+                          "rules" : [ {
+                            "conditionDescription" : "ativar",
+                            "conditions" : [ {
+                              "baseAttribute" : "IE_SITUACAO",
+                              "condition" : "=",
+                              "conditionSeq" : 561537923,
+                              "option" : "ATTRIBUTE WITH VALUE",
+                              "referenceObjectCode" : 550869659,
+                              "scriptReference" : 550869659,
+                              "value" : "A"
+                            }, {
+                              "conditionSeq" : 561568714,
+                              "option" : "SCREEN MODE (GRID / DETAIL)",
+                              "screenModeType" : "G"
+                            }, {
+                              "baseAttribute" : "DT_LIBERACAO",
+                              "condition" : "IS NULL",
+                              "conditionSeq" : 562239104,
+                              "option" : "ATTRIBUTE WITH VALUE",
+                              "referenceObjectCode" : 550869659,
+                              "scriptReference" : 550869659
+                            } ],
+                            "nrSeqRule" : 561530635,
+                            "result" : "ENABLED"
+                          } ],
+                          "text" : "Submit",
+                          "topList" : false,
+                          "type" : "BUTTON",
+                          "visible" : true
+                        } ],
+                        "objectType" : "COMPONENT",
+                        "parentObjectCode" : 550869659,
+                        "popUpHandle" : "S"
+                      }, {
+                        "code" : 561639425,
+                        "componentType" : "WPOPUP",
+                        "description" : "Inativação",
+                        "displayOrder" : 2,
+                        "menuItems" : [ {
+                          "aiContextMenu" : false,
+                          "alignment" : "E",
+                          "children" : [ ],
+                          "code" : 561648245,
+                          "componentType" : "MENUITEM",
+                          "enabled" : true,
+                          "events" : [ {
+                            "eventActions" : [ {
+                              "actionOrder" : 2,
+                              "actionSeq" : 561649965,
+                              "compReactivateCode" : 550869659,
+                              "eventAction" : "PROC",
+                              "multipleBodyItemsSupported" : false,
+                              "params" : [ {
+                                "code" : 561685628,
+                                "masterCode" : 550869659,
+                                "masterName" : "NR_SEQUENCIA",
+                                "originParam" : "OBJECT",
+                                "parameterName" : "P_NR_SEQUENCIA",
+                                "parameterSeq" : 1
+                              } ],
+                              "procedureCode" : 10171153,
+                              "reloadLine" : "S"
+                            } ],
+                            "eventSeq" : 561649964,
+                            "eventType" : "C"
+                          } ],
+                          "expressionCode" : 318745,
+                          "menuCode" : 561639425,
+                          "metadataFile" : false,
+                          "name" : "Disable",
+                          "objectType" : "COMPONENT",
+                          "order" : 2,
+                          "parentObjectCode" : 561639425,
+                          "rules" : [ {
+                            "conditionDescription" : "Ativar",
+                            "conditions" : [ {
+                              "baseAttribute" : "IE_SITUACAO",
+                              "condition" : "=",
+                              "conditionSeq" : 561729673,
+                              "option" : "ATTRIBUTE WITH VALUE",
+                              "referenceObjectCode" : 550869659,
+                              "scriptReference" : 550869659,
+                              "value" : "A"
+                            }, {
+                              "baseAttribute" : "DT_LIBERACAO",
+                              "condition" : "IS NOT NULL",
+                              "conditionSeq" : 562173363,
+                              "option" : "ATTRIBUTE WITH VALUE",
+                              "referenceObjectCode" : 550869659,
+                              "scriptReference" : 550869659
+                            } ],
+                            "nrSeqRule" : 561720361,
+                            "result" : "ENABLED"
+                          } ],
+                          "text" : "Disable",
+                          "topList" : false,
+                          "type" : "STANDARD",
+                          "visible" : true
+                        } ],
+                        "objectType" : "COMPONENT",
+                        "parentObjectCode" : 550869659,
+                        "popUpHandle" : "S"
+                      } ],
+                      "cmdkMetadataCustomization" : false,
+                      "code" : 550869659,
+                      "componentType" : "WDBPANEL",
+                      "crudRules" : [ {
+                        "canDelete" : true,
+                        "canDuplicate" : false,
+                        "canInsert" : false,
+                        "canUpdate" : true,
+                        "code" : 562322600,
+                        "rules" : [ {
+                          "conditionDescription" : "Rule Delete",
+                          "conditions" : [ {
+                            "baseAttribute" : "DT_LIBERACAO",
+                            "condition" : "IS NULL",
+                            "conditionSeq" : 562332543,
+                            "option" : "ATTRIBUTE WITH VALUE",
+                            "referenceObjectCode" : 550869659,
+                            "scriptReference" : 550869659
+                          } ],
+                          "ruleSeq" : 562326344
+                        } ]
+                      } ],
+                      "customProperties" : {
+                        "allowBatchSignature" : "N",
+                        "showDynamicReport" : "N",
+                        "withoutCache" : "N"
+                      },
+                      "description" : "DbPanel Termo Uso",
+                      "displayOrder" : 1,
+                      "isMaster" : false,
+                      "legends" : [ ],
+                      "masterObjectCode" : 0,
+                      "metadataFile" : true,
+                      "objectType" : "COMPONENT",
+                      "params" : [ ],
+                      "parentObjectCode" : 550852452,
+                      "properties" : {
+                        "action" : "",
+                        "activateOnDetail" : false,
+                        "autoCreateChild" : false,
+                        "cacheDetailViews" : false,
+                        "checkReportRelease" : true,
+                        "confirmReleaseRecord" : false,
+                        "destroyDetail" : false,
+                        "editableGrid" : false,
+                        "emptyActivation" : false,
+                        "gridWhenSave" : true,
+                        "lazyLoadDetail" : false,
+                        "multiSelection" : false,
+                        "onlyDetail" : false,
+                        "pageSize" : 0,
+                        "paginationType" : "P",
+                        "qtMaxRecord" : 0,
+                        "readOnlyType" : "N",
+                        "reportConfigVisible" : false,
+                        "responsive" : false,
+                        "saveGridColumnOrder" : false,
+                        "selectFirstRow" : false,
+                        "unificarCountRegistros" : true,
+                        "useNewGrid" : true,
+                        "usePagination" : true
+                      },
+                      "reports" : [ ],
+                      "signatureConfigured" : false,
+                      "viewCode" : 548307757
+                    } ],
+                    "code" : 550852452,
+                    "description" : "Region 0",
+                    "displayOrder" : 1,
+                    "objectType" : "REGION",
+                    "parentObjectCode" : 550852451
+                  } ],
+                  "code" : 550852451,
+                  "description" : "Master region",
+                  "masterRegionType" : "LAYOUT_A",
+                  "objectType" : "MASTER_REGION",
+                  "parentObjectCode" : 547809591
+                } ],
+                "code" : 547809591,
+                "configurable" : true,
+                "hasObjSchemRules" : false,
+                "description" : "Terms of Use",
+                "displayOrder" : 2,
+                "expressionCode" : 862648,
+                "expressionDescription" : "Terms of Use",
+                "objectType" : "TAB",
+                "parentObjectCode" : 547796111,
+                "topList" : false,
+                "visible" : "S"
+              } ],
+              "code" : 547796111,
+              "configurable" : false,
+              "hasObjSchemRules" : false,
+              "description" : "Tab",
+              "displayOrder" : 0,
+              "navigatorType" : "TAB",
+              "objectType" : "NAVIGATOR",
+              "parentObjectCode" : 547772784,
+              "selectedNavigatorItem" : 547796112,
+              "topList" : false,
+              "visible" : "S"
+            } ],
+            "code" : 547772784,
+            "description" : "Panel",
+            "displayOrder" : 1,
+            "expressionCode" : 314879,
+            "expressionDescription" : "Panel",
+            "objectType" : "PANEL",
+            "panelWidth" : 12,
+            "parentObjectCode" : 547772783
+          } ],
+          "code" : 547772783,
+          "componentType" : "WSCH",
+          "description" : "Schematic - 12",
+          "objectType" : "SCHEMATIC",
+          "parentObjectCode" : 547728656
+        } ],
+        "code" : 547728656,
+        "configurable" : true,
+        "hasObjSchemRules" : false,
+        "description" : "Settings",
+        "displayOrder" : 1,
+        "expressionCode" : 330044,
+        "expressionDescription" : "Settings",
+        "objectType" : "DROP_DOWN_MENU",
+        "parentObjectCode" : 772547764,
+        "topList" : false,
+        "visible" : "S"
+      }, {
+        "allowCmdkCustomization" : true,
+        "restrictPrimaryLevel" : "N",
+        "restrictSecondaryLevel" : "N",
+        "restrictTertiaryLevel" : "N",
+        "children" : [ {
+          "children" : [ {
+            "children" : [ {
+              "children" : [ {
+                "children" : [ {
+                  "children" : [ {
+                    "children" : [ ],
+                    "cmdkMetadataCustomization" : false,
+                    "code" : 552158007,
+                    "componentType" : "WFILTRO",
+                    "customProperties" : {
+                      "enableMultiFilters" : "N"
+                    },
+                    "description" : "FilterHistorico",
+                    "dictionaryCode" : 552201598,
+                    "experimentalFeatures" : {
+                      "experimentalForm" : false
+                    },
+                    "metadataFile" : true,
+                    "objectType" : "COMPONENT",
+                    "params" : [ ],
+                    "parentObjectCode" : 551885471,
+                    "properties" : {
+                      "closeAfterSearch" : true,
+                      "height" : 500,
+                      "lazyLoadDetail" : false,
+                      "modal" : true,
+                      "openOnShow" : false,
+                      "orientation" : "LEFT",
+                      "responsive" : true,
+                      "width" : 500
+                    }
+                  } ],
+                  "cmdkMetadataCustomization" : false,
+                  "code" : 551885471,
+                  "componentType" : "WCPANEL",
+                  "customProperties" : {
+                    "showDynamicReport" : "N"
+                  },
+                  "description" : "HistoricoCPanel",
+                  "dictionaryCode" : 551934591,
+                  "displayOrder" : 1,
+                  "legends" : [ ],
+                  "metadataFile" : true,
+                  "objectType" : "COMPONENT",
+                  "params" : [ ],
+                  "parentObjectCode" : 551865169,
+                  "properties" : {
+                    "autoCreateChild" : false,
+                    "editableGrid" : false,
+                    "emptyActivation" : false,
+                    "multiSelection" : false,
+                    "paginationType" : "P",
+                    "reportConfigVisible" : false,
+                    "saveGridColumnOrder" : false,
+                    "selectFirstRow" : false,
+                    "unificarCountRegistros" : false,
+                    "useNewGrid" : true
+                  },
+                  "reports" : [ ]
+                } ],
+                "code" : 551865169,
+                "description" : "Region 0",
+                "displayOrder" : 1,
+                "objectType" : "REGION",
+                "parentObjectCode" : 551865168
+              } ],
+              "code" : 551865168,
+              "description" : "Master region",
+              "masterRegionType" : "LAYOUT_A",
+              "objectType" : "MASTER_REGION",
+              "parentObjectCode" : 551857625
+            } ],
+            "code" : 551857625,
+            "description" : "Panel",
+            "displayOrder" : 1,
+            "expressionCode" : 314879,
+            "expressionDescription" : "Panel",
+            "objectType" : "PANEL",
+            "panelWidth" : 12,
+            "parentObjectCode" : 551857624
+          } ],
+          "code" : 551857624,
+          "componentType" : "WSCH",
+          "description" : "Schematic - 12",
+          "objectType" : "SCHEMATIC",
+          "parentObjectCode" : 547748086
+        } ],
+        "code" : 547748086,
+        "configurable" : true,
+        "hasObjSchemRules" : false,
+        "description" : "Consultation",
+        "displayOrder" : 2,
+        "expressionCode" : 285916,
+        "expressionDescription" : "Consultation",
+        "objectType" : "DROP_DOWN_MENU",
+        "parentObjectCode" : 772547764,
+        "topList" : false,
+        "visible" : "S"
+      } ],
+      "code" : 772547764,
+      "description" : "Dropdown menu",
+      "navigatorType" : "DROP_DOWN_MENU",
+      "objectType" : "NAVIGATOR",
+      "parentObjectCode" : 0,
+      "selectedNavigatorItem" : 0,
+      "schematicFeatureCode" : 772547764,
+      "version" : "1.7.0"
+    }
+  } ],
+  "type" : "PARTNER"
+}
