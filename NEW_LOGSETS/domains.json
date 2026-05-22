@@ -1,0 +1,36 @@
+{
+  "DOMINIO" : [ {
+    "$operation" : "CREATE",
+    "CD_EXP_DESC_DOMINIO" : "1",
+    "CD_DOMINIO" : "24934",
+    "NM_DOMINIO" : "1",
+    "VALOR_DOMINIO_CUSTOM" : [ ],
+    "NM_USUARIO" : "cmdk_adm_teste",
+    "DS_DOMINIO" : "1",
+    "CD_EXP_DOMINIO" : "1",
+    "VALOR_DOMINIO" : [ ],
+    "DT_ATUALIZACAO" : "12/05/2026 09:30:17",
+    "DS_LAYER" : "CORE.CMDK_LTDA"
+  }, {
+    "$operation" : "CREATE",
+    "CD_EXP_DESC_DOMINIO" : "1",
+    "CD_DOMINIO" : "25074",
+    "NM_DOMINIO" : "teste luis dominio",
+    "VALOR_DOMINIO_CUSTOM" : [ ],
+    "NM_USUARIO" : "cmdk_adm_teste",
+    "DS_DOMINIO" : "teste luis dominio",
+    "CD_EXP_DOMINIO" : "1",
+    "VALOR_DOMINIO" : [ {
+      "$operation" : "CREATE",
+      "CD_DOMINIO" : "25074",
+      "VL_DOMINIO" : "luis",
+      "NM_USUARIO" : "cmdk_adm_teste",
+      "CD_EXP_VALOR_DOMINIO" : "1",
+      "DS_VALOR_DOMINIO" : "Teste9999999",
+      "DT_ATUALIZACAO" : "20/05/2026 14:44:12",
+      "DS_LAYER" : "CORE.CMDK_LTDA"
+    } ],
+    "DT_ATUALIZACAO" : "20/05/2026 14:43:42",
+    "DS_LAYER" : "CORE.CMDK_LTDA"
+  } ]
+}
