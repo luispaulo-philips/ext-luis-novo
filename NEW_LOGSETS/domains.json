@@ -1,0 +1,15 @@
+{
+  "DOMINIO" : [ {
+    "$operation" : "CREATE",
+    "CD_EXP_DESC_DOMINIO" : "1",
+    "CD_DOMINIO" : "25222",
+    "NM_DOMINIO" : "1",
+    "VALOR_DOMINIO_CUSTOM" : [ ],
+    "NM_USUARIO" : "lpfreitas",
+    "DS_DOMINIO" : "1",
+    "CD_EXP_DOMINIO" : "1",
+    "VALOR_DOMINIO" : [ ],
+    "DT_ATUALIZACAO" : "01/06/2026 10:41:22",
+    "DS_LAYER" : "CORE.CMDK_LTDA"
+  } ]
+}
