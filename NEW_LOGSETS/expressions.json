@@ -1,0 +1,52 @@
+{
+  "DIC_EXPRESSAO_CUSTOM" : [ {
+    "$operation" : "DELETE",
+    "DT_ATUALIZACAO_NREC" : "01/06/2026 13:31:13",
+    "DS_LOCALE" : "pt_BR",
+    "DS_IDIOMA" : "pt",
+    "NR_SEQUENCIA" : "29464",
+    "NM_USUARIO" : "cmdk_adm_teste",
+    "NM_USUARIO_NREC" : "cmdk_adm_teste",
+    "CD_EXPRESSAO" : "3",
+    "DS_EXPRESSAO" : "teste 3",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "DT_ATUALIZACAO" : "01/06/2026 10:50:01"
+  }, {
+    "$operation" : "DELETE",
+    "DT_ATUALIZACAO_NREC" : "01/06/2026 13:47:33",
+    "DS_LOCALE" : "pt_BR",
+    "DS_IDIOMA" : "pt",
+    "NR_SEQUENCIA" : "29465",
+    "NM_USUARIO" : "cmdk_adm_teste",
+    "NM_USUARIO_NREC" : "cmdk_adm_teste",
+    "CD_EXPRESSAO" : "4",
+    "DS_EXPRESSAO" : "TRADU\u00c7\u00c3O EDIT USER B",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "DT_ATUALIZACAO" : "01/06/2026 13:47:09"
+  }, {
+    "$operation" : "DELETE",
+    "DT_ATUALIZACAO_NREC" : "01/06/2026 15:42:38",
+    "DS_LOCALE" : "pt_BR",
+    "DS_IDIOMA" : "pt",
+    "NR_SEQUENCIA" : "29466",
+    "NM_USUARIO" : "cmdk_adm_teste",
+    "NM_USUARIO_NREC" : "cmdk_adm_teste",
+    "CD_EXPRESSAO" : "6",
+    "DS_EXPRESSAO" : "teste orto a editado B",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "DT_ATUALIZACAO" : "01/06/2026 15:42:38"
+  }, {
+    "$operation" : "UPDATE",
+    "DT_ATUALIZACAO_NREC" : "01/06/2026 16:03:34",
+    "DS_LOCALE" : "pt_BR",
+    "DS_IDIOMA" : "pt",
+    "NR_SEQUENCIA" : "29467",
+    "NM_USUARIO" : "cmdk_adm_teste",
+    "IE_SITUACAO" : "A",
+    "NM_USUARIO_NREC" : "cmdk_adm_teste",
+    "CD_EXPRESSAO" : "6",
+    "DS_EXPRESSAO" : "edite A teste",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "DT_ATUALIZACAO" : "01/06/2026 16:03:34"
+  } ]
+}
