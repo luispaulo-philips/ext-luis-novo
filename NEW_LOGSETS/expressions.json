@@ -1,0 +1,100 @@
+{
+  "DIC_EXPRESSAO_CUSTOM" : [ {
+    "$operation" : "DELETE",
+    "DT_ATUALIZACAO_NREC" : "01/06/2026 10:39:16",
+    "DS_LOCALE" : "pt_BR",
+    "DS_IDIOMA" : "pt",
+    "NR_SEQUENCIA" : "29462",
+    "NM_USUARIO" : "lpfreitas",
+    "NM_USUARIO_NREC" : "lpfreitas",
+    "CD_EXPRESSAO" : "2",
+    "DS_EXPRESSAO" : "luis teste",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "DT_ATUALIZACAO" : "01/06/2026 10:39:16"
+  }, {
+    "$operation" : "DELETE",
+    "DT_ATUALIZACAO_NREC" : "01/06/2026 10:44:16",
+    "DS_LOCALE" : "en_AU",
+    "DS_IDIOMA" : "en",
+    "NR_SEQUENCIA" : "29463",
+    "NM_USUARIO" : "lpfreitas",
+    "NM_USUARIO_NREC" : "lpfreitas",
+    "CD_EXPRESSAO" : "2",
+    "DS_EXPRESSAO" : "t3este",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "DT_ATUALIZACAO" : "01/06/2026 10:42:11"
+  }, {
+    "$operation" : "DELETE",
+    "DT_ATUALIZACAO_NREC" : "01/06/2026 10:48:52",
+    "DS_LOCALE" : "pt_BR",
+    "DS_IDIOMA" : "pt",
+    "NR_SEQUENCIA" : "29464",
+    "NM_USUARIO" : "lpfreitas",
+    "NM_USUARIO_NREC" : "lpfreitas",
+    "CD_EXPRESSAO" : "3",
+    "DS_EXPRESSAO" : "teste 2",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "DT_ATUALIZACAO" : "01/06/2026 10:48:52"
+  }, {
+    "$operation" : "DELETE",
+    "DT_ATUALIZACAO_NREC" : "01/06/2026 13:46:47",
+    "DS_LOCALE" : "pt_BR",
+    "DS_IDIOMA" : "pt",
+    "NR_SEQUENCIA" : "29465",
+    "NM_USUARIO" : "lpfreitas",
+    "NM_USUARIO_NREC" : "lpfreitas",
+    "CD_EXPRESSAO" : "4",
+    "DS_EXPRESSAO" : "TRADU\u00c7\u00c3O EDIT USER A",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "DT_ATUALIZACAO" : "01/06/2026 13:46:47"
+  }, {
+    "$operation" : "DELETE",
+    "DT_ATUALIZACAO_NREC" : "01/06/2026 16:00:04",
+    "DS_LOCALE" : "pt_BR",
+    "DS_IDIOMA" : "pt",
+    "NR_SEQUENCIA" : "29466",
+    "NM_USUARIO" : "lpfreitas",
+    "NM_USUARIO_NREC" : "lpfreitas",
+    "CD_EXPRESSAO" : "6",
+    "DS_EXPRESSAO" : "teste orto a editado aa",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "DT_ATUALIZACAO" : "01/06/2026 15:39:44"
+  }, {
+    "$operation" : "DELETE",
+    "DT_ATUALIZACAO_NREC" : "01/06/2026 16:18:18",
+    "DS_LOCALE" : "pt_BR",
+    "DS_IDIOMA" : "pt",
+    "NR_SEQUENCIA" : "29467",
+    "NM_USUARIO" : "lpfreitas",
+    "NM_USUARIO_NREC" : "lpfreitas",
+    "CD_EXPRESSAO" : "6",
+    "DS_EXPRESSAO" : "edite A ed",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "DT_ATUALIZACAO" : "01/06/2026 16:02:06"
+  }, {
+    "$operation" : "DELETE",
+    "DT_ATUALIZACAO_NREC" : "01/06/2026 16:37:40",
+    "DS_LOCALE" : "pt_BR",
+    "DS_IDIOMA" : "pt",
+    "NR_SEQUENCIA" : "29468",
+    "NM_USUARIO" : "lpfreitas",
+    "NM_USUARIO_NREC" : "lpfreitas",
+    "CD_EXPRESSAO" : "6",
+    "DS_EXPRESSAO" : "teste editado",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "DT_ATUALIZACAO" : "01/06/2026 16:24:41"
+  }, {
+    "$operation" : "MERGE",
+    "DT_ATUALIZACAO_NREC" : "01/06/2026 16:38:48",
+    "DS_LOCALE" : "pt_BR",
+    "DS_IDIOMA" : "pt",
+    "NR_SEQUENCIA" : "29469",
+    "NM_USUARIO" : "lpfreitas",
+    "IE_SITUACAO" : "A",
+    "NM_USUARIO_NREC" : "lpfreitas",
+    "CD_EXPRESSAO" : "6",
+    "DS_EXPRESSAO" : "teste edi0",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "DT_ATUALIZACAO" : "01/06/2026 16:38:48"
+  } ]
+}
