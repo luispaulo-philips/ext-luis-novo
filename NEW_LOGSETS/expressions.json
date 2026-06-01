@@ -1,0 +1,15 @@
+{
+  "DIC_EXPRESSAO_CUSTOM" : [ {
+    "$operation" : "DELETE",
+    "DT_ATUALIZACAO_NREC" : "01/06/2026 13:31:13",
+    "DS_LOCALE" : "pt_BR",
+    "DS_IDIOMA" : "pt",
+    "NR_SEQUENCIA" : "29464",
+    "NM_USUARIO" : "cmdk_adm_teste",
+    "NM_USUARIO_NREC" : "cmdk_adm_teste",
+    "CD_EXPRESSAO" : "3",
+    "DS_EXPRESSAO" : "teste 3",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "DT_ATUALIZACAO" : "01/06/2026 10:50:01"
+  } ]
+}
