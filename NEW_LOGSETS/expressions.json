@@ -1,0 +1,16 @@
+{
+  "DIC_EXPRESSAO_CUSTOM" : [ {
+    "$operation" : "CREATE",
+    "DT_ATUALIZACAO_NREC" : "01/06/2026 10:39:16",
+    "DS_LOCALE" : "pt_BR",
+    "DS_IDIOMA" : "pt",
+    "NR_SEQUENCIA" : "29462",
+    "NM_USUARIO" : "lpfreitas",
+    "IE_SITUACAO" : "A",
+    "NM_USUARIO_NREC" : "lpfreitas",
+    "CD_EXPRESSAO" : "2",
+    "DS_EXPRESSAO" : "luis teste",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "DT_ATUALIZACAO" : "01/06/2026 10:39:16"
+  } ]
+}
