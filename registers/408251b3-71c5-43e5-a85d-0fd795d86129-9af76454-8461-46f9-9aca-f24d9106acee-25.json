@@ -1,0 +1,144 @@
+{
+  "changes" : [ {
+    "event_info" : {
+      "date" : "05/06/2026 10:45:29",
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "DELETE",
+      "sequence" : 1250,
+      "table_name" : "DIC_EXPRESSAO",
+      "tag_name" : "CMDK",
+      "tasy_user" : "cmdk_adm_teste",
+      "guid" : "15883be1-90b2-4b43-970e-85eeb29599b9"
+    },
+    "server_info" : {
+      "charset" : "BRAZILIAN PORTUGUESE_BRAZIL.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "YY567872",
+      "os_user" : "320115671",
+      "tasy_user" : "cmdk_adm_teste"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "CD_EXPRESSAO",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : 1154100
+    } ],
+    "column_values" : [ {
+      "column_name" : "CD_EXPRESSAO",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : 1154100
+    }, {
+      "column_name" : "NM_USUARIO",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "lpfreitas"
+    }, {
+      "column_name" : "DT_ATUALIZACAO",
+      "data_type" : "DATE",
+      "new_value" : null,
+      "old_value" : "05/06/2026 10:18:33"
+    }, {
+      "column_name" : "DS_GLOSSARIO",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "teste luis paulo local use A editado"
+    }, {
+      "column_name" : "DT_ATUALIZACAO_NREC",
+      "data_type" : "DATE",
+      "new_value" : null,
+      "old_value" : "05/06/2026 10:44:34"
+    }, {
+      "column_name" : "NM_USUARIO_NREC",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "cmdk_adm_teste"
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "05/06/2026 10:45:29",
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "DELETE",
+      "sequence" : 1252,
+      "table_name" : "DIC_EXPRESSAO_CUSTOM",
+      "tag_name" : "CMDK",
+      "tasy_user" : "cmdk_adm_teste",
+      "guid" : "68a804d8-d450-4a47-97e0-ba7153bdb826"
+    },
+    "server_info" : {
+      "charset" : "BRAZILIAN PORTUGUESE_BRAZIL.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "YY567872",
+      "os_user" : "320115671",
+      "tasy_user" : "cmdk_adm_teste"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : 29532
+    } ],
+    "column_values" : [ {
+      "column_name" : "IE_SITUACAO",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "A"
+    }, {
+      "column_name" : "DS_LOCALE",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "pl_PL"
+    }, {
+      "column_name" : "DS_IDIOMA",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "pl"
+    }, {
+      "column_name" : "DS_EXPRESSAO",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "teste luis paulo para deletar  com o user b"
+    }, {
+      "column_name" : "CD_EXPRESSAO",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : "1154100"
+    }, {
+      "column_name" : "DS_LAYER",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "CORE.CMDK_LTDA"
+    }, {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : null,
+      "old_value" : 29532
+    }, {
+      "column_name" : "DT_ATUALIZACAO",
+      "data_type" : "DATE",
+      "new_value" : null,
+      "old_value" : "05/06/2026 10:43:03"
+    }, {
+      "column_name" : "NM_USUARIO",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "lpfreitas"
+    }, {
+      "column_name" : "DT_ATUALIZACAO_NREC",
+      "data_type" : "DATE",
+      "new_value" : null,
+      "old_value" : "05/06/2026 10:44:34"
+    }, {
+      "column_name" : "NM_USUARIO_NREC",
+      "data_type" : "VARCHAR2",
+      "new_value" : null,
+      "old_value" : "cmdk_adm_teste"
+    } ]
+  } ]
+}
