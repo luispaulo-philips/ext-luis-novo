@@ -1,0 +1,25 @@
+{
+  "DIC_EXPRESSAO" : [ {
+    "$operation" : "CREATE",
+    "DT_ATUALIZACAO_NREC" : "11/06/2026 15:16:16",
+    "DIC_EXPRESSAO_IDIOMA" : [ {
+      "$operation" : "CREATE",
+      "DT_ATUALIZACAO_NREC" : "11/06/2026 15:16:16",
+      "DS_LOCALE" : "pt_BR",
+      "DS_IDIOMA" : "pt",
+      "NR_SEQUENCIA" : "1154511",
+      "NM_USUARIO" : "lpfreitas",
+      "IE_SITUACAO" : "A",
+      "NM_USUARIO_NREC" : "lpfreitas",
+      "CD_EXPRESSAO" : "1154511",
+      "DS_EXPRESSAO" : "teste luis novo",
+      "DS_LAYER" : "CORE.CMDK_LTDA",
+      "DT_ATUALIZACAO" : "11/06/2026 15:16:16"
+    } ],
+    "DS_GLOSSARIO" : "teste luis novo gloss",
+    "NM_USUARIO" : "lpfreitas",
+    "NM_USUARIO_NREC" : "lpfreitas",
+    "CD_EXPRESSAO" : "1154511",
+    "DT_ATUALIZACAO" : "11/06/2026 15:16:16"
+  } ]
+}
