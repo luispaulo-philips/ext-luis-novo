@@ -1,0 +1,389 @@
+{
+  "changes" : [ {
+    "event_info" : {
+      "date" : "30/06/2026 11:13:04",
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "INSERT",
+      "sequence" : 251,
+      "table_name" : "DIC_EXPRESSAO_CUSTOM",
+      "tag_name" : "CMDK",
+      "tasy_user" : "lpfreitas",
+      "guid" : "5bf08f7c-485e-4ca2-a8ac-c8ae3e1e58d1"
+    },
+    "server_info" : {
+      "charset" : "BRAZILIAN PORTUGUESE_BRAZIL.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "YY567872",
+      "os_user" : "320115671",
+      "tasy_user" : "lpfreitas"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 30322,
+      "old_value" : null
+    } ],
+    "column_values" : [ {
+      "column_name" : "DS_IDIOMA",
+      "data_type" : "VARCHAR2",
+      "new_value" : "pt",
+      "old_value" : null
+    }, {
+      "column_name" : "IE_SITUACAO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "A",
+      "old_value" : null
+    }, {
+      "column_name" : "DS_LOCALE",
+      "data_type" : "VARCHAR2",
+      "new_value" : "pt_BR",
+      "old_value" : null
+    }, {
+      "column_name" : "DS_EXPRESSAO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "teste 4 exp",
+      "old_value" : null
+    }, {
+      "column_name" : "CD_EXPRESSAO",
+      "data_type" : "NUMBER",
+      "new_value" : "4",
+      "old_value" : null
+    }, {
+      "column_name" : "DS_LAYER",
+      "data_type" : "VARCHAR2",
+      "new_value" : "CORE.CMDK_LTDA",
+      "old_value" : null
+    }, {
+      "column_name" : "DT_ATUALIZACAO_NREC",
+      "data_type" : "DATE",
+      "new_value" : "30/06/2026 09:44:04",
+      "old_value" : null
+    }, {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 30322,
+      "old_value" : null
+    }, {
+      "column_name" : "DT_ATUALIZACAO",
+      "data_type" : "DATE",
+      "new_value" : "30/06/2026 09:44:04",
+      "old_value" : null
+    }, {
+      "column_name" : "NM_USUARIO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "lpfreitas",
+      "old_value" : null
+    }, {
+      "column_name" : "NM_USUARIO_NREC",
+      "data_type" : "VARCHAR2",
+      "new_value" : "lpfreitas",
+      "old_value" : null
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "30/06/2026 11:13:04",
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "INSERT",
+      "sequence" : 300,
+      "table_name" : "DIC_EXPRESSAO",
+      "tag_name" : "CMDK",
+      "tasy_user" : "lpfreitas",
+      "guid" : "5bd7a646-e1ee-41ca-ab93-b9879b8b88a6"
+    },
+    "server_info" : {
+      "charset" : "BRAZILIAN PORTUGUESE_BRAZIL.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "YY567872",
+      "os_user" : "320115671",
+      "tasy_user" : "lpfreitas"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "CD_EXPRESSAO",
+      "data_type" : "NUMBER",
+      "new_value" : 1155806,
+      "old_value" : null
+    } ],
+    "column_values" : [ {
+      "column_name" : "CD_EXPRESSAO",
+      "data_type" : "NUMBER",
+      "new_value" : 1155806,
+      "old_value" : null
+    }, {
+      "column_name" : "NM_USUARIO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "lpfreitas",
+      "old_value" : null
+    }, {
+      "column_name" : "DT_ATUALIZACAO",
+      "data_type" : "DATE",
+      "new_value" : "30/06/2026 10:15:01",
+      "old_value" : null
+    }, {
+      "column_name" : "DS_GLOSSARIO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "teste expression custom total",
+      "old_value" : null
+    }, {
+      "column_name" : "DT_ATUALIZACAO_NREC",
+      "data_type" : "DATE",
+      "new_value" : "30/06/2026 10:15:01",
+      "old_value" : null
+    }, {
+      "column_name" : "NM_USUARIO_NREC",
+      "data_type" : "VARCHAR2",
+      "new_value" : "lpfreitas",
+      "old_value" : null
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "30/06/2026 11:13:04",
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "INSERT",
+      "sequence" : 301,
+      "table_name" : "DIC_EXPRESSAO_CUSTOM",
+      "tag_name" : "CMDK",
+      "tasy_user" : "lpfreitas",
+      "guid" : "6b4b092c-a3ae-4d51-9a9d-6922c1fd45e8"
+    },
+    "server_info" : {
+      "charset" : "BRAZILIAN PORTUGUESE_BRAZIL.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "YY567872",
+      "os_user" : "320115671",
+      "tasy_user" : "lpfreitas"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 1155806,
+      "old_value" : null
+    } ],
+    "column_values" : [ {
+      "column_name" : "DS_IDIOMA",
+      "data_type" : "VARCHAR2",
+      "new_value" : "pt",
+      "old_value" : null
+    }, {
+      "column_name" : "IE_SITUACAO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "A",
+      "old_value" : null
+    }, {
+      "column_name" : "DS_LOCALE",
+      "data_type" : "VARCHAR2",
+      "new_value" : "pt_BR",
+      "old_value" : null
+    }, {
+      "column_name" : "DS_EXPRESSAO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "teste expression custom total",
+      "old_value" : null
+    }, {
+      "column_name" : "CD_EXPRESSAO",
+      "data_type" : "NUMBER",
+      "new_value" : "1155806",
+      "old_value" : null
+    }, {
+      "column_name" : "DS_LAYER",
+      "data_type" : "VARCHAR2",
+      "new_value" : "CORE.CMDK_LTDA",
+      "old_value" : null
+    }, {
+      "column_name" : "DT_ATUALIZACAO_NREC",
+      "data_type" : "DATE",
+      "new_value" : "30/06/2026 10:15:01",
+      "old_value" : null
+    }, {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 1155806,
+      "old_value" : null
+    }, {
+      "column_name" : "DT_ATUALIZACAO",
+      "data_type" : "DATE",
+      "new_value" : "30/06/2026 10:15:01",
+      "old_value" : null
+    }, {
+      "column_name" : "NM_USUARIO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "lpfreitas",
+      "old_value" : null
+    }, {
+      "column_name" : "NM_USUARIO_NREC",
+      "data_type" : "VARCHAR2",
+      "new_value" : "lpfreitas",
+      "old_value" : null
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "30/06/2026 11:13:04",
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "sequence" : 350,
+      "table_name" : "DIC_EXPRESSAO",
+      "tag_name" : "CMDK",
+      "tasy_user" : "lpfreitas",
+      "guid" : "3589bd84-afa6-4a47-a5cb-bec9480f18de"
+    },
+    "server_info" : {
+      "charset" : "BRAZILIAN PORTUGUESE_BRAZIL.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "YY567872",
+      "os_user" : "320115671",
+      "tasy_user" : "lpfreitas"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "CD_EXPRESSAO",
+      "data_type" : "NUMBER",
+      "new_value" : 1155806,
+      "old_value" : 1155806
+    } ],
+    "column_values" : [ {
+      "column_name" : "CD_EXPRESSAO",
+      "data_type" : "NUMBER",
+      "new_value" : 1155806,
+      "old_value" : 1155806
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "30/06/2026 11:13:04",
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "sequence" : 351,
+      "table_name" : "DIC_EXPRESSAO_CUSTOM",
+      "tag_name" : "CMDK",
+      "tasy_user" : "lpfreitas",
+      "guid" : "73f8219f-69d6-4cdb-a802-c357e0b41ab6"
+    },
+    "server_info" : {
+      "charset" : "BRAZILIAN PORTUGUESE_BRAZIL.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "YY567872",
+      "os_user" : "320115671",
+      "tasy_user" : "lpfreitas"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 1155806,
+      "old_value" : 1155806
+    } ],
+    "column_values" : [ {
+      "column_name" : "DS_EXPRESSAO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "teste expression custom total t",
+      "old_value" : "teste expression custom total"
+    }, {
+      "column_name" : "CD_EXPRESSAO",
+      "data_type" : "NUMBER",
+      "new_value" : "1155806",
+      "old_value" : "1155806"
+    }, {
+      "column_name" : "DT_ATUALIZACAO_NREC",
+      "data_type" : "DATE",
+      "new_value" : "30/06/2026 10:47:09",
+      "old_value" : "30/06/2026 10:15:01"
+    }, {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 1155806,
+      "old_value" : 1155806
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "30/06/2026 11:13:04",
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "sequence" : 400,
+      "table_name" : "DIC_EXPRESSAO",
+      "tag_name" : "CMDK",
+      "tasy_user" : "lpfreitas",
+      "guid" : "f72292ec-9430-4f56-9a2f-e050bfde774d"
+    },
+    "server_info" : {
+      "charset" : "BRAZILIAN PORTUGUESE_BRAZIL.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "YY567872",
+      "os_user" : "320115671",
+      "tasy_user" : "lpfreitas"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "CD_EXPRESSAO",
+      "data_type" : "NUMBER",
+      "new_value" : 1155806,
+      "old_value" : 1155806
+    } ],
+    "column_values" : [ {
+      "column_name" : "CD_EXPRESSAO",
+      "data_type" : "NUMBER",
+      "new_value" : 1155806,
+      "old_value" : 1155806
+    }, {
+      "column_name" : "DS_GLOSSARIO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "teste expression custom total ed",
+      "old_value" : "teste expression custom total"
+    }, {
+      "column_name" : "DT_ATUALIZACAO_NREC",
+      "data_type" : "DATE",
+      "new_value" : "30/06/2026 10:47:30",
+      "old_value" : "30/06/2026 10:15:01"
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "30/06/2026 11:13:04",
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "sequence" : 401,
+      "table_name" : "DIC_EXPRESSAO_CUSTOM",
+      "tag_name" : "CMDK",
+      "tasy_user" : "lpfreitas",
+      "guid" : "1c2d7875-42a3-4fe2-bcda-8cc305d8909f"
+    },
+    "server_info" : {
+      "charset" : "BRAZILIAN PORTUGUESE_BRAZIL.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "YY567872",
+      "os_user" : "320115671",
+      "tasy_user" : "lpfreitas"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 1155806,
+      "old_value" : 1155806
+    } ],
+    "column_values" : [ {
+      "column_name" : "CD_EXPRESSAO",
+      "data_type" : "NUMBER",
+      "new_value" : "1155806",
+      "old_value" : "1155806"
+    }, {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 1155806,
+      "old_value" : 1155806
+    } ]
+  } ]
+}
