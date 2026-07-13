@@ -1,0 +1,49 @@
+{
+  "DIC_EXPRESSAO_CUSTOM" : [ {
+    "$operation" : "DELETE",
+    "DT_ATUALIZACAO_NREC" : "08/07/2026 16:01:07",
+    "DS_LOCALE" : "en_US",
+    "DS_IDIOMA" : "en",
+    "NR_SEQUENCIA" : "30643",
+    "NM_USUARIO" : "lpfreitas",
+    "NM_USUARIO_NREC" : "lpfreitas",
+    "CD_EXPRESSAO" : "4",
+    "DS_EXPRESSAO" : "cacczcz",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "DT_ATUALIZACAO" : "08/07/2026 16:01:07"
+  }, {
+    "$operation" : "DELETE",
+    "DT_ATUALIZACAO_NREC" : "13/07/2026 11:10:40",
+    "DS_LOCALE" : "fr_FR",
+    "DS_IDIOMA" : "fr",
+    "NR_SEQUENCIA" : "30802",
+    "NM_USUARIO" : "lpfreitas",
+    "NM_USUARIO_NREC" : "lpfreitas",
+    "CD_EXPRESSAO" : "6",
+    "DS_EXPRESSAO" : "teste",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "DT_ATUALIZACAO" : "13/07/2026 11:10:40"
+  } ],
+  "DIC_EXPRESSAO" : [ {
+    "$operation" : "DELETE",
+    "DT_ATUALIZACAO_NREC" : "08/07/2026 15:46:41",
+    "DIC_EXPRESSAO_IDIOMA" : [ {
+      "$operation" : "DELETE",
+      "DT_ATUALIZACAO_NREC" : "08/07/2026 15:46:41",
+      "DS_LOCALE" : "pt_BR",
+      "DS_IDIOMA" : "pt",
+      "NR_SEQUENCIA" : "1156356",
+      "NM_USUARIO" : "lpfreitas",
+      "NM_USUARIO_NREC" : "lpfreitas",
+      "CD_EXPRESSAO" : "1156356",
+      "DS_EXPRESSAO" : "luis localdsa",
+      "DS_LAYER" : "CORE.CMDK_LTDA",
+      "DT_ATUALIZACAO" : "08/07/2026 15:46:41"
+    } ],
+    "DS_GLOSSARIO" : "luis localdsa dadadada",
+    "NM_USUARIO" : "lpfreitas",
+    "NM_USUARIO_NREC" : "lpfreitas",
+    "CD_EXPRESSAO" : "1156356",
+    "DT_ATUALIZACAO" : "08/07/2026 15:46:41"
+  } ]
+}
