@@ -1,0 +1,17 @@
+{
+  "TIPO_LOCALIZAR" : [ {
+    "$operation" : "DELETE",
+    "DT_ATUALIZACAO_NREC" : "08/07/2026 15:51:28",
+    "DS_LOCALIZADOR" : "Materiais teste",
+    "IE_RESTRINGE_ESTAB" : "N",
+    "IE_APRESENTACAO" : "N",
+    "TIPO_LOCALIZADOR_CLIENTE" : [ ],
+    "NM_USUARIO" : "lpfreitas",
+    "NR_SEQUENCIA" : "32771",
+    "TIPO_LOCALIZAR_ATRIBUTO" : [ ],
+    "DS_SQL" : "select *\r\nfrom material\r\nwhere ie_tipo_material <> 8\r\norder by ds_material",
+    "NM_USUARIO_NREC" : "lpfreitas",
+    "IE_LOCALIZADOR_INTERNO" : "",
+    "DT_ATUALIZACAO" : "08/07/2026 15:51:28"
+  } ]
+}
